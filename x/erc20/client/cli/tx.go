@@ -389,7 +389,7 @@ func NewMultiSendCmd() *cobra.Command {
 	cmd := &cobra.Command{
 		Use:     "multi-send [csv_file] [denom] [startIndex] [threshold]",
 		Short:   "Execute multisend based on csv file",
-		Example: `acred tx erc20 multi-send "./airdrop.csv" aacre 0 100 --from=WALLET --keyring-backend=test`,
+		Example: `acred tx erc20 multi-send "./airdrop.csv" aacre 0 100 --from=mykey --keyring-backend=test`,
 		Args:    cobra.ExactArgs(4),
 		RunE: func(cmd *cobra.Command, args []string) error {
 			clientCtx, err := client.GetClientTxContext(cmd)
@@ -428,7 +428,11 @@ func NewMultiSendCmd() *cobra.Command {
 				if index < startIndex {
 					continue
 				}
-				msgs = append(msgs, &msg)
+				msgs = append(msgs, &banktypes.MsgSend{
+					FromAddress: msg.FromAddress,
+					ToAddress:   msg.ToAddress,
+					Amount:      msg.Amount,
+				})
 				if len(msgs) >= threshold || index+1 == len(sendMsgs) {
 					err := tx.GenerateOrBroadcastTxCLI(clientCtx, cmd.Flags(), msgs...)
 					if err != nil {
