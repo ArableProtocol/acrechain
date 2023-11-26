@@ -24,11 +24,13 @@ const (
 	Bech32PrefixConsPub = Bech32Prefix + sdk.PrefixValidator + sdk.PrefixConsensus + sdk.PrefixPublic
 )
 
-const (
+var (
 	// DisplayDenom defines the denomination displayed to users in client applications.
 	DisplayDenom = "acre"
 	// BaseDenom defines to the default denomination used in Acrechain (staking, EVM, governance, etc.)
 	BaseDenom = "aacre"
+	// decimal reduction 10^18
+	DecimalReduction = sdk.NewInt(1000_000_000).Mul(sdk.NewInt(1000_000_000)) // 10^18
 )
 
 // SetBech32Prefixes sets the global prefixes to be used when serializing addresses and public keys to Bech32 strings.

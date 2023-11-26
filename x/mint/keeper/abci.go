@@ -54,14 +54,13 @@ func (k Keeper) EndBlocker(ctx sdk.Context) {
 		if err != nil {
 			panic(err)
 		}
+		ctx.EventManager().EmitEvent(
+			sdk.NewEvent(
+				types.ModuleName,
+				sdk.NewAttribute(types.AttributeBlockNumber, fmt.Sprintf("%d", ctx.BlockHeight())),
+				sdk.NewAttribute(types.AttributeKeyBlockProvisions, mintedCoins.String()),
+				sdk.NewAttribute(sdk.AttributeKeyAmount, mintedCoin.Amount.String()),
+			),
+		)
 	}
-
-	ctx.EventManager().EmitEvent(
-		sdk.NewEvent(
-			types.ModuleName,
-			sdk.NewAttribute(types.AttributeBlockNumber, fmt.Sprintf("%d", ctx.BlockHeight())),
-			sdk.NewAttribute(types.AttributeKeyBlockProvisions, mintedCoins.String()),
-			sdk.NewAttribute(sdk.AttributeKeyAmount, mintedCoin.Amount.String()),
-		),
-	)
 }

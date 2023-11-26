@@ -13,7 +13,6 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/ArableProtocol/acrechain/types"
 	"github.com/evmos/ethermint/encoding"
 )
 
@@ -28,7 +27,7 @@ func TestAcreChainExport(t *testing.T) {
 	// Initialize the chain
 	app.InitChain(
 		abci.RequestInitChain{
-			ChainId:       types.MainnetChainID + "-1",
+			ChainId:       "bamboo_9051-2",
 			Validators:    []abci.ValidatorUpdate{},
 			AppStateBytes: stateBytes,
 		},

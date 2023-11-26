@@ -7,19 +7,15 @@ import (
 
 // GetNextReductionTime returns next reduction time.
 func (k Keeper) GetNextReductionTime(ctx sdk.Context) int64 {
-	store := ctx.KVStore(k.storeKey)
-	b := store.Get(types.LastReductionTimeKey)
-	if b == nil {
-		return 0
-	}
-
-	return int64(sdk.BigEndianToUint64(b))
+	params := k.GetParams(ctx)
+	return params.NextRewardsReductionTime
 }
 
 // SetNextReductionTime set next reduction time.
 func (k Keeper) SetNextReductionTime(ctx sdk.Context, time int64) {
-	store := ctx.KVStore(k.storeKey)
-	store.Set(types.LastReductionTimeKey, sdk.Uint64ToBigEndian(uint64(time)))
+	params := k.GetParams(ctx)
+	params.NextRewardsReductionTime = time
+	k.SetParams(ctx, params)
 }
 
 // get the minter.
