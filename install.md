@@ -48,7 +48,7 @@ go version
 
 ```
 git clone https://github.com/ArableProtocol/acrechain && cd acrechain
-git checkout testnet_bamboo
+git checkout v1.0.0
 make install
 
 ```
@@ -58,8 +58,8 @@ acred version --long
 
 # name: acre
 # server_name: acred
-# version: ""
-# commit: 01482d6deddda2b0b4a399857857dc2a0dd38555
+# version: 1.0.0
+# commit: 1720aef574485731c27f9186725a26d615be24f4
 # build_tags: netgo,ledger
 # go: go version go1.18.5 linux/amd64
 ```
@@ -99,9 +99,9 @@ EOF
 # Download genesis
 
 ```
-wget -O $HOME/$PROJECT_PATH/config/genesis.json https://raw.githubusercontent.com/ArableProtocol/acrechain/testnet_bamboo/networks/bamboo/genesis.json
+wget -O $HOME/$PROJECT_PATH/config/genesis.json https://raw.githubusercontent.com/ArableProtocol/acrechain/v1.0.0/networks/bamboo/genesis.json
 
-PEERS="44dd124ca34742245ad906f9f6ea377fae3af0cf@168.100.9.100:26656,6477921cdd4ba4503a1a2ff1f340c9d6a0e7b4a0@168.100.10.133:26656,9b53496211e75dbf33680b75e617830e874c8d93@168.100.8.9:26656,c55d79d6f76045ff7b68dc2bf6655348ebbfd795@168.100.8.60:26656"
+PEERS="6d41af54405fa98073b178262ec9d083b3f12e67@46.4.81.204:16656,a1900a1eca73c08a2b5718d07d8b649d6e1e0fc9@94.237.27.199:26646,221460c042f6b8314308f4f522b1bdbc15cca1f0@31.7.196.66:26656,cc751411f9e40f8ded410872ea2c73f8261ac0c7@135.181.72.187:11593,ffdd3c4f05b6b080907c40f4f36ac95998dd2c9e@65.109.28.177:49467,79f234d95580c1b49840137131e65a1ce23667cf@65.108.204.119:26616,6f71a4782ad31b24cfcd86f0973708a158ebf05e@65.108.100.214:26656"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" $HOME/$PROJECT_PATH/config/config.toml
 ```
 
