@@ -14,7 +14,7 @@ func (k Keeper) InitGenesis(ctx sdk.Context, data *types.GenesisState) {
 
 	minter := types.Minter{
 		DailyProvisions: data.Params.GenesisDailyProvisions,
-		LastMintTime:    ctx.BlockTime().Unix(),
+		LastMintTime:    0,
 	}
 	k.SetMinter(ctx, minter)
 	k.SetParams(ctx, data.Params)
