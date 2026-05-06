@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/ArableProtocol/acrechain/cmd/config"
 	appparams "github.com/ArableProtocol/acrechain/cmd/config"
 	minttypes "github.com/ArableProtocol/acrechain/x/mint/types"
 	"github.com/cosmos/cosmos-sdk/client"
@@ -90,7 +91,7 @@ func PrepareGenesis(clientCtx client.Context, appState map[string]json.RawMessag
 
 	// chain params genesis
 	genDoc.ChainID = chainID
-	genDoc.GenesisTime = time.Unix(1667278800, 0) // Tue Nov 01 2022 05:00:00 GMT+0000
+	genDoc.GenesisTime = time.Unix(1669042800, 0) // Monday, November 21, 2022 3:00:00 PM GMT+0000
 	genDoc.ConsensusParams = tmtypes.DefaultConsensusParams()
 	genDoc.ConsensusParams.Block.MaxBytes = 21 * 1024 * 1024
 	genDoc.ConsensusParams.Block.MaxGas = 300_000_000
@@ -99,7 +100,8 @@ func PrepareGenesis(clientCtx client.Context, appState map[string]json.RawMessag
 	mintGenState := minttypes.DefaultGenesisState()
 	mintGenState.Params = minttypes.DefaultParams()
 	mintGenState.Params.MintDenom = appparams.BaseDenom
-	mintGenState.Params.MintingRewardsDistributionStartTime = 1697826179 // 1 year from now - Fri Oct 20 2023 18:22:59 GMT+0000
+	mintGenState.Params.MintingRewardsDistributionStartTime = 1671033600 // Wed Dec 14 2022 16:00:00 GMT+0000
+	mintGenState.Params.NextRewardsReductionTime = 1676390400            // Tue Feb 14 2023 16:00:00 GMT+0000
 
 	mintGenStateBz, err := cdc.MarshalJSON(mintGenState)
 	if err != nil {
@@ -111,8 +113,7 @@ func PrepareGenesis(clientCtx client.Context, appState map[string]json.RawMessag
 	bankGenState := banktypes.DefaultGenesisState()
 	bankGenState.Params = banktypes.DefaultParams()
 
-	decimalReduction := sdk.NewInt(1000_000_000).Mul(sdk.NewInt(1000_000_000))                                           // 10^18
-	bankGenState.Supply = sdk.NewCoins(sdk.NewCoin(appparams.BaseDenom, sdk.NewInt(1000_000_000).Mul(decimalReduction))) // 1 billion ACRE
+	bankGenState.Supply = sdk.NewCoins(sdk.NewCoin(appparams.BaseDenom, sdk.NewInt(350_000_000).Mul(config.DecimalReduction))) // 350M ACRE
 
 	genAccounts := []authtypes.GenesisAccount{}
 
@@ -123,10 +124,72 @@ func PrepareGenesis(clientCtx client.Context, appState map[string]json.RawMessag
 	genAccounts = append(genAccounts, authtypes.NewBaseAccount(addrStrategicReserve, nil, 0, 0))
 
 	// send tokens to genesis validators
-	genesisValidators := []string{}
+	genesisValidators := []string{
+		"acre12g66na08jrr8957uv7ftlmt0xw56j8qf0vgknz", // anonstake
+		"acre1chtemgelehwh5k7nqv6wpgmmn46z33gttsw4mu", // vanguard
+		"acre1kqlnqxf8clakdm8dqlxyjc7qcvvd88m080ftau", // azstake
+		"acre1muhcvklnqrjv6eguw8chshm23pwp2zp0gyew92", // b-harvest
+		"acre1j9r5gufue4lw3fmws74lmzqex389s6azu86xjx", // bitcat
+		"acre18p32srqkjjqax6f99ql9ucwczc2aemmer33yde", // BitNordic
+		"acre1dgeda9nt3fqsfwgmf7hm5xpffsefh4x7pptarn", // blockscape
+		"acre1nq9utvcs99tqj680670vf60vmpypl0njuvstea", // blockswell
+		"acre1f9nrky5rvs96rmsk7te4jesv92qsm25d9h0p0v", // capital magnate
+		"acre1asr74pcdvpwkvtsla6tqqmhuyhewtnl5hze86q", // chainofsecrets
+		"acre1csn8s4g52upaadcxum4sqnxprtc683ukr5uzk8", // Chrysoprase
+		"acre1qknphqq8vkekyw447kdcjjj58qxk36uxtaz9yw", // coinstamp
+		"acre1cy2pzmnfwg6njx502uttjrkmuf4hjtjey9suhk", // D-stake
+		"acre1mxhx8ar3f2thtntdsrn4sgv68duxvcxq28gw43", // Enigma
+		"acre1ddceyf8tcd7jxwrzaryuckwuzjhge93spcglca", // ericet
+		"acre1rvrecs7f3pdlplq75nhqtmegruthhsn8lcrndl", // everstake
+		"acre1e76jsstf39zanx846vptzwdegcced09as0qjqp", // french chocolatine
+		"acre17j2z96kwktql80ql9qa3ljg9zj0jvue5ljzzxt", // GalaxyStaking
+		"acre1ws43egqv720nglj53ks2qqv3z6lzrz3a4g9z2n", // AutoStake
+		"acre1ygll7dmlsufgs6yarrnm8ljsed4tpafeg2cxu8", // dankuzone
+		"acre1tf33ygp6v4pp7ak3jqzx2kg559xk9ln27h0x7t", // frens
+		"acre1wdn6p3ngzmqjmk2mzvmagfu7lhmetamcevhkjm", // mandragora
+		"acre1qt6yf3fvz250uddj04rxglfd40v8nruq0rh6py", // NodeStake
+		"acre12mq0cjukdx3v2texmg07pr9c4v0ca67cqgyfkf", // PFC
+		"acre157dds6jpnvzfnnez599d0ukjvgu2r944cnm7hg", // Zenscape
+		"acre15avy39shq7cllgvrvuyfm2c4w4kgkgu86dyqhv", // HashQuark
+		"acre1fgs9uuxjwrclak88e633nw75j6ckxmdx09v0pw", // highstakes
+		"acre1veyw56cksj64737w5exp4x366hqqsarlrvg57m", // HodlGlobal
+		"acre1ax3m50pulmjude2nw2emrt79jxjkpwrldwvnej", // Illuminati
+		"acre1ke8tvwj0vdk72m80y5rzu97t2fy9wu3npaelug", // InBWet
+		"acre14ye7l35ary0musqs4dn6aj79u3lg5gpfxthwaj", // itgold
+		"acre16ta5jvmvj90l3zgry98p3gafqnn8e3aq00987r", // jet-node
+		"acre1llprqt8prvf364tgggx8as6yxcw46g4mjzsxrm", // Kalia Network
+		"acre1zgpquw7zaphz8n4qn6lgstfaac9zxwk8jl8eey", // lux8
+		"acre1p4rah2cttcuqffky7gk4a4auv8hhtmmqvv25ha", // Machfund
+		"acre106ukr5w6a95kmtgh4xc9a3n5xcw2rpzqwlszv8", // Marionode
+		"acre1wevs2p8t2khs3zp9qs3s7cx4qxu2mz6zfjej6q", // Masternode24
+		"acre1rals2gachf9555wj5puhm7l4wnkevwjefwwgt5", // Matrixed Link
+		"acre1c3qf72rlsxn6ttf9v56a2x8tzwu6dhqkm3yj7u", // MatrixStake
+		"acre1dnwj3dgdfaazgrjtjjffq9cvjft3e9lnvmr700", // MindHeartSoul
+		"acre1guxlxgr5flga44vvg7skqp0r5y67a5xnree00c", // namdokmai
+		"acre1gr0kmjvkgsf8ph5x9y5f0q6e3f9atzcuk5rqss", // noderunners
+		"acre1p6rtyjs3dr9eaknsqavskyz7dzjnesjxwmn5qc", // orbital apes
+		"acre1aev5mdduh578z5z894kk2cauxqntjfj6hx4s84", // P-OPS
+		"acre19jkd68j79mulnx6pgyqgjwatrvhgdl0clxg59n", // QwertySoftware
+		"acre1yppufjenpmk2xueazr9zysgh52f7h3rsv206vn", // Ramuchi
+		"acre1lj9tn3huf8zm3ncegmefv0rzwmhj3gz7tmdkn2", // silent
+		"acre1fac8t87smt4e2j355glhr3qungqk578mkj4agp", // skynet
+		"acre1kskw99wharjx3gdgz8afw30rs7h4fgm7ath2re", // stakeordie
+		"acre17gc07hawajnfg7e4539pmps0zfkwrdf4tg8t9m", // Stake-Take
+		"acre1hwy0kh4g4at7degm9yfrusukv97ua8lhqv6jga", // Stake.Works
+		"acre146q22dq5c39nwfrn5dgd8uxjjrmptpvc5agkam", // Staketab
+		"acre1y4pfpkwpy6myskp7pne256k6smh2rjtaaf0xv9", // Synergy Nodes
+		"acre1tc94c0ljexukfjrf35ukdjr0puutvxmy9v6yjz", // TheNOP
+		"acre1x0m2j2xxgmsj2dmyajcx0jmyjzkd0t9n2xr8ca", // ValidatorRun
+		"acre16v8tgcl2a72zpg74us65wv7626mcnu22xjslmq", // VaultStaking
+		"acre1rl5h39q804mxypn5gyy0a2uzyrqeydg2eqhteh", // Web3ident
+		"acre12242xw27r9v2dplr9hhy3ftpgn55tehg73ajk8", // Web34ever
+		"acre1xgymy6z8futd73g9y9gdgndqj3d4zspuc43e8a", // Wetez
+		"acre1hvn8advpjvhkdldjqfayqz54p6sgm5djf380xy", // windpowerstake
+		"acre1sn80um2chzav6mytlfjthlvaf97ta77hfec6ng", // Yurbason
+	}
 
 	totalValidatorInitialCoins := sdk.NewCoins()
-	validatorInitialCoins := sdk.NewCoins(sdk.NewCoin(appparams.BaseDenom, sdk.NewInt(10).Mul(decimalReduction))) // 10 ACRE
+	validatorInitialCoins := sdk.NewCoins(sdk.NewCoin(appparams.BaseDenom, sdk.NewInt(120).Mul(config.DecimalReduction))) // 120 ACRE
 	for _, address := range genesisValidators {
 		bankGenState.Balances = append(bankGenState.Balances, banktypes.Balance{
 			Address: address,
@@ -140,7 +203,7 @@ func PrepareGenesis(clientCtx client.Context, appState map[string]json.RawMessag
 		genAccounts = append(genAccounts, authtypes.NewBaseAccount(addr, nil, 0, 0))
 	}
 
-	// strategic reserve = 200M - 50M - airdropCoins
+	// strategic reserve = supply - validator initial coins
 	bankGenState.Balances = append(bankGenState.Balances, banktypes.Balance{
 		Address: addrStrategicReserve.String(),
 		Coins:   bankGenState.Supply.Sub(totalValidatorInitialCoins),
@@ -195,7 +258,7 @@ func PrepareGenesis(clientCtx client.Context, appState map[string]json.RawMessag
 	govGenState := govtypes.DefaultGenesisState()
 	defaultGovParams := govtypes.DefaultParams()
 	govGenState.DepositParams = defaultGovParams.DepositParams
-	govGenState.DepositParams.MinDeposit = sdk.Coins{sdk.NewCoin(appparams.BaseDenom, sdk.NewInt(500).Mul(decimalReduction))} // 500 ACRE
+	govGenState.DepositParams.MinDeposit = sdk.Coins{sdk.NewCoin(appparams.BaseDenom, sdk.NewInt(500).Mul(config.DecimalReduction))} // 500 ACRE
 	govGenState.TallyParams = defaultGovParams.TallyParams
 	govGenState.VotingParams = defaultGovParams.VotingParams
 	govGenState.VotingParams.VotingPeriod = time.Hour * 24 * 2 // 2 days
@@ -217,7 +280,7 @@ func PrepareGenesis(clientCtx client.Context, appState map[string]json.RawMessag
 
 	// crisis module genesis
 	crisisGenState := crisistypes.DefaultGenesisState()
-	crisisGenState.ConstantFee = sdk.NewCoin(appparams.BaseDenom, sdk.NewInt(1).Mul(decimalReduction)) // 1 ACRE
+	crisisGenState.ConstantFee = sdk.NewCoin(appparams.BaseDenom, sdk.NewInt(1).Mul(config.DecimalReduction)) // 1 ACRE
 	crisisGenStateBz, err := cdc.MarshalJSON(crisisGenState)
 	if err != nil {
 		return nil, nil, fmt.Errorf("failed to marshal crisis genesis state: %w", err)

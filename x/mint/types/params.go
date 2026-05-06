@@ -7,6 +7,7 @@ import (
 
 	yaml "gopkg.in/yaml.v2"
 
+	"github.com/ArableProtocol/acrechain/cmd/config"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 )
@@ -47,11 +48,12 @@ func NewParams(
 
 // DefaultParams returns the default minting module parameters.
 func DefaultParams() Params {
+	reductionDec := sdk.NewDecFromInt(config.DecimalReduction)
 	return Params{
 		MintDenom:                sdk.DefaultBondDenom,
-		GenesisDailyProvisions:   sdk.NewDec(821_917_808_219), //  300 million /  365 * 10 ^ 6
-		ReductionPeriodInSeconds: 31536000,                    // 1 year - 86400 x 365
-		ReductionFactor:          sdk.NewDecWithPrec(6666, 4), // 0.6666
+		GenesisDailyProvisions:   sdk.NewDec(821_917).Mul(reductionDec), //  300 million /  365 * 10^18
+		ReductionPeriodInSeconds: 31536000,                              // 1 year - 86400 x 365
+		ReductionFactor:          sdk.NewDecWithPrec(6666, 4),           // 0.6666
 		DistributionProportions: DistributionProportions{
 			Staking: sdk.NewDecWithPrec(25, 2), // 25%
 		},

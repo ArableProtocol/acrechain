@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2022-11-01T05:00:00Z",
+  "genesis_time": "2022-11-21T15:00:00Z",
   "chain_id": "acre_9052-1",
   "initial_height": "1",
   "consensus_params": {
@@ -14,7 +14,9 @@
       "max_bytes": "1048576"
     },
     "validator": {
-      "pub_key_types": ["ed25519"]
+      "pub_key_types": [
+        "ed25519"
+      ]
     },
     "version": {}
   },
@@ -35,6 +37,433 @@
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre12g66na08jrr8957uv7ftlmt0xw56j8qf0vgknz",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1chtemgelehwh5k7nqv6wpgmmn46z33gttsw4mu",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1kqlnqxf8clakdm8dqlxyjc7qcvvd88m080ftau",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1muhcvklnqrjv6eguw8chshm23pwp2zp0gyew92",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1j9r5gufue4lw3fmws74lmzqex389s6azu86xjx",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre18p32srqkjjqax6f99ql9ucwczc2aemmer33yde",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1dgeda9nt3fqsfwgmf7hm5xpffsefh4x7pptarn",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1nq9utvcs99tqj680670vf60vmpypl0njuvstea",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1f9nrky5rvs96rmsk7te4jesv92qsm25d9h0p0v",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1asr74pcdvpwkvtsla6tqqmhuyhewtnl5hze86q",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1csn8s4g52upaadcxum4sqnxprtc683ukr5uzk8",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1qknphqq8vkekyw447kdcjjj58qxk36uxtaz9yw",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1cy2pzmnfwg6njx502uttjrkmuf4hjtjey9suhk",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1mxhx8ar3f2thtntdsrn4sgv68duxvcxq28gw43",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1ddceyf8tcd7jxwrzaryuckwuzjhge93spcglca",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1rvrecs7f3pdlplq75nhqtmegruthhsn8lcrndl",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1e76jsstf39zanx846vptzwdegcced09as0qjqp",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre17j2z96kwktql80ql9qa3ljg9zj0jvue5ljzzxt",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1ws43egqv720nglj53ks2qqv3z6lzrz3a4g9z2n",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1ygll7dmlsufgs6yarrnm8ljsed4tpafeg2cxu8",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1tf33ygp6v4pp7ak3jqzx2kg559xk9ln27h0x7t",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1wdn6p3ngzmqjmk2mzvmagfu7lhmetamcevhkjm",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1qt6yf3fvz250uddj04rxglfd40v8nruq0rh6py",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre12mq0cjukdx3v2texmg07pr9c4v0ca67cqgyfkf",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre157dds6jpnvzfnnez599d0ukjvgu2r944cnm7hg",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre15avy39shq7cllgvrvuyfm2c4w4kgkgu86dyqhv",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1fgs9uuxjwrclak88e633nw75j6ckxmdx09v0pw",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1veyw56cksj64737w5exp4x366hqqsarlrvg57m",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1ax3m50pulmjude2nw2emrt79jxjkpwrldwvnej",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1ke8tvwj0vdk72m80y5rzu97t2fy9wu3npaelug",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre14ye7l35ary0musqs4dn6aj79u3lg5gpfxthwaj",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre16ta5jvmvj90l3zgry98p3gafqnn8e3aq00987r",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1llprqt8prvf364tgggx8as6yxcw46g4mjzsxrm",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1zgpquw7zaphz8n4qn6lgstfaac9zxwk8jl8eey",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1p4rah2cttcuqffky7gk4a4auv8hhtmmqvv25ha",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre106ukr5w6a95kmtgh4xc9a3n5xcw2rpzqwlszv8",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1wevs2p8t2khs3zp9qs3s7cx4qxu2mz6zfjej6q",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1rals2gachf9555wj5puhm7l4wnkevwjefwwgt5",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1c3qf72rlsxn6ttf9v56a2x8tzwu6dhqkm3yj7u",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1dnwj3dgdfaazgrjtjjffq9cvjft3e9lnvmr700",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1guxlxgr5flga44vvg7skqp0r5y67a5xnree00c",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1gr0kmjvkgsf8ph5x9y5f0q6e3f9atzcuk5rqss",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1p6rtyjs3dr9eaknsqavskyz7dzjnesjxwmn5qc",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1aev5mdduh578z5z894kk2cauxqntjfj6hx4s84",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre19jkd68j79mulnx6pgyqgjwatrvhgdl0clxg59n",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1yppufjenpmk2xueazr9zysgh52f7h3rsv206vn",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1lj9tn3huf8zm3ncegmefv0rzwmhj3gz7tmdkn2",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1fac8t87smt4e2j355glhr3qungqk578mkj4agp",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1kskw99wharjx3gdgz8afw30rs7h4fgm7ath2re",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre17gc07hawajnfg7e4539pmps0zfkwrdf4tg8t9m",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1hwy0kh4g4at7degm9yfrusukv97ua8lhqv6jga",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre146q22dq5c39nwfrn5dgd8uxjjrmptpvc5agkam",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1y4pfpkwpy6myskp7pne256k6smh2rjtaaf0xv9",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1tc94c0ljexukfjrf35ukdjr0puutvxmy9v6yjz",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1x0m2j2xxgmsj2dmyajcx0jmyjzkd0t9n2xr8ca",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre16v8tgcl2a72zpg74us65wv7626mcnu22xjslmq",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1rl5h39q804mxypn5gyy0a2uzyrqeydg2eqhteh",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre12242xw27r9v2dplr9hhy3ftpgn55tehg73ajk8",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1xgymy6z8futd73g9y9gdgndqj3d4zspuc43e8a",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1hvn8advpjvhkdldjqfayqz54p6sgm5djf380xy",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "acre1sn80um2chzav6mytlfjthlvaf97ta77hfec6ng",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
         }
       ]
     },
@@ -48,11 +477,560 @@
       },
       "balances": [
         {
+          "address": "acre12g66na08jrr8957uv7ftlmt0xw56j8qf0vgknz",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1chtemgelehwh5k7nqv6wpgmmn46z33gttsw4mu",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1kqlnqxf8clakdm8dqlxyjc7qcvvd88m080ftau",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1muhcvklnqrjv6eguw8chshm23pwp2zp0gyew92",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1j9r5gufue4lw3fmws74lmzqex389s6azu86xjx",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre18p32srqkjjqax6f99ql9ucwczc2aemmer33yde",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1dgeda9nt3fqsfwgmf7hm5xpffsefh4x7pptarn",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1nq9utvcs99tqj680670vf60vmpypl0njuvstea",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1f9nrky5rvs96rmsk7te4jesv92qsm25d9h0p0v",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1asr74pcdvpwkvtsla6tqqmhuyhewtnl5hze86q",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1csn8s4g52upaadcxum4sqnxprtc683ukr5uzk8",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1qknphqq8vkekyw447kdcjjj58qxk36uxtaz9yw",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1cy2pzmnfwg6njx502uttjrkmuf4hjtjey9suhk",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1mxhx8ar3f2thtntdsrn4sgv68duxvcxq28gw43",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1ddceyf8tcd7jxwrzaryuckwuzjhge93spcglca",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1rvrecs7f3pdlplq75nhqtmegruthhsn8lcrndl",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1e76jsstf39zanx846vptzwdegcced09as0qjqp",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre17j2z96kwktql80ql9qa3ljg9zj0jvue5ljzzxt",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1ws43egqv720nglj53ks2qqv3z6lzrz3a4g9z2n",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1ygll7dmlsufgs6yarrnm8ljsed4tpafeg2cxu8",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1tf33ygp6v4pp7ak3jqzx2kg559xk9ln27h0x7t",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1wdn6p3ngzmqjmk2mzvmagfu7lhmetamcevhkjm",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1qt6yf3fvz250uddj04rxglfd40v8nruq0rh6py",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre12mq0cjukdx3v2texmg07pr9c4v0ca67cqgyfkf",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre157dds6jpnvzfnnez599d0ukjvgu2r944cnm7hg",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre15avy39shq7cllgvrvuyfm2c4w4kgkgu86dyqhv",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1fgs9uuxjwrclak88e633nw75j6ckxmdx09v0pw",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1veyw56cksj64737w5exp4x366hqqsarlrvg57m",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1ax3m50pulmjude2nw2emrt79jxjkpwrldwvnej",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1ke8tvwj0vdk72m80y5rzu97t2fy9wu3npaelug",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre14ye7l35ary0musqs4dn6aj79u3lg5gpfxthwaj",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre16ta5jvmvj90l3zgry98p3gafqnn8e3aq00987r",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1llprqt8prvf364tgggx8as6yxcw46g4mjzsxrm",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1zgpquw7zaphz8n4qn6lgstfaac9zxwk8jl8eey",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1p4rah2cttcuqffky7gk4a4auv8hhtmmqvv25ha",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre106ukr5w6a95kmtgh4xc9a3n5xcw2rpzqwlszv8",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1wevs2p8t2khs3zp9qs3s7cx4qxu2mz6zfjej6q",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1rals2gachf9555wj5puhm7l4wnkevwjefwwgt5",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1c3qf72rlsxn6ttf9v56a2x8tzwu6dhqkm3yj7u",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1dnwj3dgdfaazgrjtjjffq9cvjft3e9lnvmr700",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1guxlxgr5flga44vvg7skqp0r5y67a5xnree00c",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1gr0kmjvkgsf8ph5x9y5f0q6e3f9atzcuk5rqss",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1p6rtyjs3dr9eaknsqavskyz7dzjnesjxwmn5qc",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1aev5mdduh578z5z894kk2cauxqntjfj6hx4s84",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre19jkd68j79mulnx6pgyqgjwatrvhgdl0clxg59n",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1yppufjenpmk2xueazr9zysgh52f7h3rsv206vn",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1lj9tn3huf8zm3ncegmefv0rzwmhj3gz7tmdkn2",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1fac8t87smt4e2j355glhr3qungqk578mkj4agp",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1kskw99wharjx3gdgz8afw30rs7h4fgm7ath2re",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre17gc07hawajnfg7e4539pmps0zfkwrdf4tg8t9m",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1hwy0kh4g4at7degm9yfrusukv97ua8lhqv6jga",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre146q22dq5c39nwfrn5dgd8uxjjrmptpvc5agkam",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1y4pfpkwpy6myskp7pne256k6smh2rjtaaf0xv9",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1tc94c0ljexukfjrf35ukdjr0puutvxmy9v6yjz",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1x0m2j2xxgmsj2dmyajcx0jmyjzkd0t9n2xr8ca",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre16v8tgcl2a72zpg74us65wv7626mcnu22xjslmq",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1rl5h39q804mxypn5gyy0a2uzyrqeydg2eqhteh",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre12242xw27r9v2dplr9hhy3ftpgn55tehg73ajk8",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1xgymy6z8futd73g9y9gdgndqj3d4zspuc43e8a",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1hvn8advpjvhkdldjqfayqz54p6sgm5djf380xy",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "acre1sn80um2chzav6mytlfjthlvaf97ta77hfec6ng",
+          "coins": [
+            {
+              "denom": "aacre",
+              "amount": "120000000000000000000"
+            }
+          ]
+        },
+        {
           "address": "acre1zasg70674vau3zaxh3ygysf8lgscz50al84jww",
           "coins": [
             {
               "denom": "aacre",
-              "amount": "1000000000000000000000000000"
+              "amount": "349992680000000000000000000"
             }
           ]
         }
@@ -60,7 +1038,7 @@
       "supply": [
         {
           "denom": "aacre",
-          "amount": "1000000000000000000000000000"
+          "amount": "350000000000000000000000000"
         }
       ],
       "denom_metadata": []
@@ -149,7 +1127,3607 @@
       "block_gas": "0"
     },
     "genutil": {
-      "gen_txs": []
+      "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "B-Harvest",
+                  "identity": "8957C5091FBF4192",
+                  "website": "https://bharvest.io",
+                  "security_contact": "contact@bharvest.io",
+                  "details": "Provides secure validation services for dPoS networks"
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.050000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1muhcvklnqrjv6eguw8chshm23pwp2zp0gyew92",
+                "validator_address": "acrevaloper1muhcvklnqrjv6eguw8chshm23pwp2zp03ug78h",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "Rkm6VYq1dL43MQSL0VoYgr3IcLgfcIIOOrwNgNdS4Gw="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "2b4d8754f05f5335fceb9743541252a8f527e05a@172.17.0.2:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AnhQJwyfOyWt8FHESEJr3tP5yzSKXad5LWDug/X/7mcQ"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "UQXR3/pjYqv9sDXoITKYJkxi53QbPpKRT1fbEe7IM4NON2FdDLjRyQSEZ06wkROoG8u5SAWr1b5E8GO9COXF3wA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Bit Cat",
+                  "identity": "FAB46CEEAEAB9FA1",
+                  "website": "https://www.bitcat365.com",
+                  "security_contact": "hi@bitcat365.com",
+                  "details": "Professional PoS node operator, active community contributor, supports multiple blockchain projects. Enterprise-grade infrastructure ensures the security and stability of the service."
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1j9r5gufue4lw3fmws74lmzqex389s6azu86xjx",
+                "validator_address": "acrevaloper1j9r5gufue4lw3fmws74lmzqex389s6az9ltksm",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "ItwQkQxQYpGGvxPsT2gAppzycaJcTqx+Vz0XBoE4y1U="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "8314f18537f245c283cfd6dff849ca2d2a451abc@209.145.60.31:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A6Ugh4xiQK3RRaA82zKwsB6d3VoTGSmLgwX9eAnDzToG"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "IEo92Pq4DDEO3UY51E6XEmk1525HUbfxm3Ra9VSHYdJ3GCgMVCWnkuDQyPFZMiRDGnY8/ZeNpxOey9HmnWuEKgE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "BitNordic.com",
+                  "identity": "8620B2B38D72599B",
+                  "website": "https://bitnordic.com/",
+                  "security_contact": "info@bitnordic.com",
+                  "details": "Your partner for staking \u0026 web3"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre18p32srqkjjqax6f99ql9ucwczc2aemmer33yde",
+                "validator_address": "acrevaloper18p32srqkjjqax6f99ql9ucwczc2aemme6fq50y",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "w/yM2MG3e6g/O5b/clgN/N4JjWFW9ES4w1WIWo2AxC0="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "ea56a568ccf569ade5e07138a1f41adca8f67d4b@135.181.214.91:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AhYI80swqZL6noow8y7oVzj5UqjfDuI9FHBHLNEz7wci"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "6FMYREqBiNQ6fRqek0wXGYSMC4ZZdeQHUsimDBAcZTx0Y7v2uIWVeKvOJTyfJEbAqBkdPAtmoaIr6tCBLpDmRQE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "CapitalMagnate",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1f9nrky5rvs96rmsk7te4jesv92qsm25d9h0p0v",
+                "validator_address": "acrevaloper1f9nrky5rvs96rmsk7te4jesv92qsm25du073d3",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "xWkjciQv6OO4iMrYtYVrjhOoc8rLIR+usA2CQCzNzHE="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "5f9ac0463a73b12ea49a1b2edba5592025c1a5e3@65.108.50.43:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A8k/HhJCFlB81BJOa1n8qPijbDsYiZPB1AaApigA9zKC"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "KqrUdZNzTVtElaqabIc5/kJC2ES/0tyasn4jbjCiUkFEv/oRMUu5KhQIpLnwEzEbbksrxgGyz4DvJoQ9pRMa0gA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ChainofSecrets.org",
+                  "identity": "08A144F225C03F2A",
+                  "website": "https://chainofsecrets.org",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.090000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1asr74pcdvpwkvtsla6tqqmhuyhewtnl5hze86q",
+                "validator_address": "acrevaloper1asr74pcdvpwkvtsla6tqqmhuyhewtnl5w6ghca",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "ssjNZK0TtAvuPsmWPj1Jnb2gL6LzrKbvk0x+DLb/H2A="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "de6fcf4bbc382da183fddc5cdb9921dca1ace3c0@104.129.46.119:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "Awb/eO0L6ntLb0/XABD33ljLgMPr++7x/+i7FMGEASbR"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "wVOzHLjev/OMEDdPYenIBcKym95aaXMDp2M7FEN2zitrf6dwrbcjCYLDgJqYbOJigI3XettxHTZpy6jlWINC9AE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Chrysoprase",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1csn8s4g52upaadcxum4sqnxprtc683ukr5uzk8",
+                "validator_address": "acrevaloper1csn8s4g52upaadcxum4sqnxprtc683uk6vdj56",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "lyZvBKcjmcqq5BFnXRWrwbryBfm97CaZbP6QIPUYXI4="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "0b7b75eb14891ef25255e2a71dce7982e844b7e0@95.216.142.160:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A7TL0saxZuG00FsiTvQfexHbYXTZt2u5BB1jwV2BEFRI"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "Tqdh7OsGtYQIxmkUZpUUO7xKtm7nM6BiwewBE1RTxbF8K27C07iTe+1rregwtiwXF7NOlKkI4jU4hvGs4z6cdAE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Coinstamp",
+                  "identity": "DC593D952394A19A",
+                  "website": "https://twitter.com/coinstamp_",
+                  "security_contact": "https://twitter.com/coinstamp_",
+                  "details": "linktr.ee/coinstamp"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "acre1qknphqq8vkekyw447kdcjjj58qxk36uxtaz9yw",
+                "validator_address": "acrevaloper1qknphqq8vkekyw447kdcjjj58qxk36uxj9n4xn",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "onMxnL0YobchLpto+3OzFYI0Qx9VQvDjTs71C6avLTU="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "201c09d147dbc2160d0bc7d2188b68232d096e22@65.109.5.235:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A/YfRm+uUu4Z6ovl+ktWmswOpMEJTtujIJEhIyUj0l2O"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "IuQdNLPBDkx5YhH9o7mlWiXXMm9xAvcGu113r1eENGBTwi3nxYLC6pEYipY5S6PRU+fvn8gZ5VXzrd5xkiCPvwE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "D-stake",
+                  "identity": "21A67C27F1A9CD69",
+                  "website": "https://d-stake.xyz",
+                  "security_contact": "info@d-stake.xyz",
+                  "details": "D-stake is an experienced PoS validator. You can safely stake your funds"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.400000000000000000",
+                  "max_change_rate": "0.050000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1cy2pzmnfwg6njx502uttjrkmuf4hjtjey9suhk",
+                "validator_address": "acrevaloper1cy2pzmnfwg6njx502uttjrkmuf4hjtjeaapv4t",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "sDydh+KL7zhVU3ClmeMLempbF6z9mt4RGupwz5CyJ9c="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "539a8ff7985d3c1309b4e1f07237bc81768afe42@209.145.62.101:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AqLLQ/dkyAHP4llRnJLGcWAZpk8MHQ1DggreGR8ZtXzv"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "8oJMpHYwv/OIHNFu5xKpGMFYMMtAG6JeT7HYXETBqEBVq/qUEDobfQYvX+w/vwKWMDnd6IpE7iskOoLpYOq+BAE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Enigma",
+                  "identity": "6223697ACA24A4FF",
+                  "website": "https://enigma-validator.com/",
+                  "security_contact": "contact@enigma-validator.com",
+                  "details": "Proof of Stake Validator on different projects -- Passionate about Data Science and Technology"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "acre1mxhx8ar3f2thtntdsrn4sgv68duxvcxq28gw43",
+                "validator_address": "acrevaloper1mxhx8ar3f2thtntdsrn4sgv68duxvcxqnle7hv",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "dnhMaFr6MYtpr/cHluqvKE7tRWT+aqNigxcg1afvDtI="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "c8bfcf6e5ff175c7052345dbf63af1d1df704986@136.243.88.91:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "ApLJ8hjWQEeYsCGKpHb0UbOIGXuhUK82rxzZr8VoC1WE"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "sTo7j/0KJZGWEIXFF/lOYqmBWRvl1HoIG6OV/j5DXMkKTnbli6o4whsFo9zkCfJKuhmgMQNyy3Ns3kNe+G0NqQA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Everstake",
+                  "identity": "EF5AC70C00BECEDC",
+                  "website": "https://everstake.one",
+                  "security_contact": "",
+                  "details": "Reliable and experienced staking service provider from Ukraine. Visit our website for more details."
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1rvrecs7f3pdlplq75nhqtmegruthhsn8lcrndl",
+                "validator_address": "acrevaloper1rvrecs7f3pdlplq75nhqtmegruthhsn8xqjr0z",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "tU8Mht0w8x3fLnRNRPu/X4iCi1dUvA+igbML5wZmQMo="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "3cd724bd7c6b8a909c3b25db60e5b6ee36c78877@94.237.27.199:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A1mYmTVlo9aR5zpx0BDZofs0Kz/Gz0oOMn/OXpmKQO2V"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "ooH8iV6nDegph7tTwmvP/kjWrGz/lWcnVz0V+dZvkgQ+l/sYfhdorqjNnacGXpRhjZHfNbNc2iG6t1sNGYJOywE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "GalaxyStaking 🌑",
+                  "identity": "CE96041EC98A5DDA",
+                  "website": "https://galaxystaking.space",
+                  "security_contact": "admin@galaxystaking.space",
+                  "details": "a new era of staking!"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.050000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre17j2z96kwktql80ql9qa3ljg9zj0jvue5ljzzxt",
+                "validator_address": "acrevaloper17j2z96kwktql80ql9qa3ljg9zj0jvue5x2njyk",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "92cLzLr0GxRYtk3czH2FJ1ai/CDZ3diSXoQhaodsmYk="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "10a2611565184f8186f8c6d3e449f0f876e00066@188.68.43.46:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "Ap+mBzCUDljVIHn36ogNmRHGQVUO77RmS14YaR7Da3BL"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "yrYvWiLPcC6uKT0WxZUQ4aWSN8UzneTw8UaOHWkVkXsVW4dHWEcNSyOGXfcG6hfChEH8rPEGERg6D5zSjVSqZwA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "HashQuark",
+                  "identity": "31AFBBE0A52FA1ED",
+                  "website": "https://www.hashquark.io",
+                  "security_contact": "",
+                  "details": "Staking Made Easier"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre15avy39shq7cllgvrvuyfm2c4w4kgkgu86dyqhv",
+                "validator_address": "acrevaloper15avy39shq7cllgvrvuyfm2c4w4kgkgu8r44s43",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "llxLYOYp5nFmFBoOfirTLHTBpzr6v+vHzMgPs/Gbk6w="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "add1646f3f96510aa1380991668fd7bb6034e48a@10.20.3.115:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A6iXKmlUipG1ppAXk0BSTfhwr7YyC604O5HfLIiWNHcL"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "1/eB5yRO9ParkSdvlonvOYl0Nm/AJPxuoqnZjCj+hEkJ6UVUsU0Q2a8icOcl3aM5TwSVih946TI1UoHoq0GY2gE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "hodl.global",
+                  "identity": "https://hodl.clobal",
+                  "website": "https://hodl.clobal",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1veyw56cksj64737w5exp4x366hqqsarlrvg57m",
+                "validator_address": "acrevaloper1veyw56cksj64737w5exp4x366hqqsarl65eyux",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "FBfQLmTJM5UFsbccKHLh8qhUrgY1pkaevfmWbTmUq5o="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "a6f9ababecc7f4d8697c643464d7101c3a3cf125@95.216.170.46:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A+cqA4ri0aI3icQd9iJ8O7b+G052Ms705xXxw4VHUAi0"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "9p+quG24/eqg+YC8Hy0w3M82V7d/02SCHSMIVZbyi+UBLb8UWOcJB6VdBc4HbIkcWHVL9OGOmj/ftG4mhHsPqgE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Illuminati",
+                  "identity": "B3A5A3884DBABFE4",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1ax3m50pulmjude2nw2emrt79jxjkpwrldwvnej",
+                "validator_address": "acrevaloper1ax3m50pulmjude2nw2emrt79jxjkpwrl5karm0",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "s/ftO15h60KbQ1AiVRdnOc0qL3vpPnjIiwJpISU1vdc="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "3d60b0e5292b0cb04a67cd76ee1e69e6e887122b@5.9.48.85:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "ArfhM3kmj1nmdnlTE/wIiB9S6zs01hACa0uIDdMuEhhe"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "orL62irQ43nrWWVSlgpwbAD5+/PmfG0axw9RkUQ7PXdVd8hJJrtot5qzFjTngG2bIvguxC7zh1+BkzCrIAMUCwA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "InBWeT",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1ke8tvwj0vdk72m80y5rzu97t2fy9wu3npaelug",
+                "validator_address": "acrevaloper1ke8tvwj0vdk72m80y5rzu97t2fy9wu3nc9g074",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "dlFHwfOHfNQsOWPC/yVa3Lq01CAJyHRNYMkckNJGQyw="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "8b8d98c49ce4daa9e54b2ab3f93ce1001ccc0250@173.212.252.17:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "An/Iu4+FHdbVfo7ebWg2MYBNal39M9Cm1IrT219gr/4R"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "mPb7N5P7369r8EclhdjAXki4QgK1UzwZyTRQjFBvVx14I7Di9QBeHnclhq3FMhutWwd93yagP13fftJFK/TIWgE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Kalia Network",
+                  "identity": "3D6E2861B47F2F9F",
+                  "website": "",
+                  "security_contact": "",
+                  "details": "Kalia Network validator node. Delegate your tokens and Start Earning Staking Rewards"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "1.000000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "acre1llprqt8prvf364tgggx8as6yxcw46g4mjzsxrm",
+                "validator_address": "acrevaloper1llprqt8prvf364tgggx8as6yxcw46g4mt6pkpx",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "N1DVyWdduy2Lu9hdDJeh3Tqat/HCBmYg0Wnx+V+2tq4="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "110000000000000000000"
+                }
+              }
+            ],
+            "memo": "ef28f065e24d60df275b06ae9f7fed8ba0823448@46.4.81.204:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "ArKIM/4ORG1u8wBDcYTN9L6CDSFdwZwmx83hG/T2S5nK"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "e7KszfIwjWEhxsOt8eA2Q/fffq4AwJUyyMfhPPp/4OJUN1EjZHUBIxAeX3bWHcZUrTEVucBo2NqN45oC5EM6UgE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Mach.Fund",
+                  "identity": "",
+                  "website": "https://mach.fund",
+                  "security_contact": "",
+                  "details": "Delivering investment opportunities in digital assets"
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1p4rah2cttcuqffky7gk4a4auv8hhtmmqvv25ha",
+                "validator_address": "acrevaloper1p4rah2cttcuqffky7gk4a4auv8hhtmmq45my4q",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "MUelUJQ4WScsTt20/mtgkzvkdBd3hqDicWuACrOLc0A="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "7127823c9c66b23a6082914c199c3e76ad4e6997@62.122.168.226:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "Agqkq5SIROQ9Gh8POH210OHIjSUJtBKnZiJnA3jPK/6x"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "bZE4RfVXF8MrcVURQxLQys3fF4Rl3zf6wz9ASOlWa+lOIMzH7Mq4ha9giVH4Ea2HGfA1ZJcVO8E06MgLRbNW1gA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Masternode24",
+                  "identity": "FD7479E6C05B24BE",
+                  "website": "https://masternode24.de/",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1wevs2p8t2khs3zp9qs3s7cx4qxu2mz6zfjej6q",
+                "validator_address": "acrevaloper1wevs2p8t2khs3zp9qs3s7cx4qxu2mz6zs2gzca",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "0OZPzZ69aB+8QIvHgaw5KejcR+hO+lsG21blU1+804s="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "0f92bd247314da3ba4e63ad1cd41ea95a1cda3a0@5.161.61.220:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A1mtVhB4Cra2G2WPW6RtkYLrY9SCjK+/kj1xgq8ehhKS"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "uzCcLId41ZL27LHs5+9Mvaoysc8fOtMRdTQPJVzXRBxn660DzNwBH5/faaYLZR5Q9DQQ/BWAr7guCVogqHAJ1QA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Matrix Stake",
+                  "identity": "Matrix",
+                  "website": "https://matrixstaking.com",
+                  "security_contact": "",
+                  "details": "Bringing more than a decade of cloud experience and combining the knowledge and experience to build a robust validator node ecosystem at cloud scale. Currently providing professional staking service for Polygon, Harmony, Velas \u0026 Arable"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1c3qf72rlsxn6ttf9v56a2x8tzwu6dhqkm3yj7u",
+                "validator_address": "acrevaloper1c3qf72rlsxn6ttf9v56a2x8tzwu6dhqkzf4zup",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "ipxQDHsLppun8A2JCvnkNbGhQogFrbiINUUVYLG+fpM="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "1ef139a482c06d254d7ced3700e5bdc763bd67a5@172.31.53.4:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A+0oKRN12iRIxxd2t+ikC/BX8oD4pfbo9XzDzvvt7y+p"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "Iyvfsz/vV1Q/diRrkDtdULZNl4V5OeYVg09j1QkGyXkGK8i6pkSQ0IgumDU6i/RvBhwHcevbY2pqrfo+AnU+ZAE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Matrixed.Link",
+                  "identity": "E903E2F1EA108F5D",
+                  "website": "MatrixedLink.io",
+                  "security_contact": "validator@matrixed.link",
+                  "details": "Your trusted blockchain infrastructure provider."
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1rals2gachf9555wj5puhm7l4wnkevwjefwwgt5",
+                "validator_address": "acrevaloper1rals2gachf9555wj5puhm7l4wnkevwjesklcff",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "O/SuMl2SkRUURWWYZiExTSeytaTr8jEUx34e8tcPpv8="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "9c3c083535b948492dd2d9b3ff88f22ee859e51c@176.9.53.27:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AgSAIjnwf+QAM09WFuJorBYqUBq8YHJwwrFoUiU6U887"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "vncAb3h5q/z4ZsDj8NoUeGS9SrALFaonYJhgTeObhcZtudzLKNCxXay/SRSGT0M3pbQa96FoXK9JZW6tVDjv2AE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "",
+                  "identity": "B19CCB674F20BC43",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.300000000000000000",
+                  "max_change_rate": "0.050000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1dnwj3dgdfaazgrjtjjffq9cvjft3e9lnvmr700",
+                "validator_address": "acrevaloper1dnwj3dgdfaazgrjtjjffq9cvjft3e9ln4rjwdj",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "haltdbeT9WdwjqmBm4wOqz9YDX3qMCUR3M/1HPY8+7c="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "cf41ef1e3ca2fbf5a644087e12c69b42f702b6b1@192.168.254.120:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AvChxdgF9ybX9bNMwZbcQc7Q5iQ5yulDJnejAT/GqY9r"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "IxZlD69u5a0l+E9AwJk/NY+9tgrGerkXHc3bjr4SjhE2m14YaaZCxOEPeqAvu6KNRi40HlAqtZKR9mXETeWzKwE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Noderunners",
+                  "identity": "812E82D12FEA3493",
+                  "website": "http://noderunners.biz",
+                  "security_contact": "info@noderunners.biz",
+                  "details": "Noderunners is a professional validator in POS networks. We have a huge node running experience, reliable soft and hardware. Our commissions are always low, our support to delegators is always full. Stake with us and start receiving your Acrechain rewards now!"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1gr0kmjvkgsf8ph5x9y5f0q6e3f9atzcuk5rqss",
+                "validator_address": "acrevaloper1gr0kmjvkgsf8ph5x9y5f0q6e3f9atzcu0vjsjd",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "9Y5Cdza3KI7OqZLE2RUoSY+IBqGjFQtYuWXZe1RDXZQ="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "56e4da01261809e8101ceda13084a0dd7f0f1391@38.242.139.212:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A3DUOSxwvHeA3T8BE3lRqM7lyq/emhURLJELCxMqxyVL"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "7FEoECAM5Xn0MxdyU5nuoTHM5X6DoLq7X46ZEHas7ClADFfuBr4G9DpBGVEtYmNvO+KByCS6hfoW/pumpVTQewA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "OrbitalApes.com",
+                  "identity": "",
+                  "website": "www.orbitalapes.com",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1p6rtyjs3dr9eaknsqavskyz7dzjnesjxwmn5qc",
+                "validator_address": "acrevaloper1p6rtyjs3dr9eaknsqavskyz7dzjnesjxhrzyz9",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "BI5s0Azl6GrzeJuxeonCrospU7FUHPI7hUjjggxqEUY="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "fe8ffedf5d06cb035e2be494fd2aacf9dfa107c6@192.168.1.10:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A9l+mn69JPAO9lIgvaskYr2hY/lcMh0yYh5pLaCdlbLP"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "soz5FD4RN/vXY8kxrsMtsts3xdXSHwDHyCFh5A8/u2M72o6dEYC/DutqIC/HnAXAFA3RLwjsZ5poGqZtBDs2eQE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "P-OPS Team",
+                  "identity": "A2B9CAA088770EA6",
+                  "website": "https://www.pops.one",
+                  "security_contact": "security@pops.one",
+                  "details": "P-OPS TEAM is a decentralized organization providing you with validation and staking services, blockchain consultation, growth acceleration and investment capital for innovative Web 3.0 projects."
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1aev5mdduh578z5z894kk2cauxqntjfj6hx4s84",
+                "validator_address": "acrevaloper1aev5mdduh578z5z894kk2cauxqntjfj6w7yq9g",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "FHavMtWoHathMScLHlQdEiXd4ozM8P4lMq6TGRjboKs="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "9a4058767f3c29e3113a0b32d78aa381f228444c@185.218.125.201:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A27bHGVbK1JLTtSUkDfZpBZEFUlJGee9Xd6TRm1ZxSPN"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "QNOsuorU+6jUDWWbfVvwh4Am9HWiDWudyUN/lpWcLQsnN+DhODKHmRP9GfFmw3XzxO+Rk7rNW8hUqwgZ4u9ssAA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "QwertySoftware",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre19jkd68j79mulnx6pgyqgjwatrvhgdl0clxg59n",
+                "validator_address": "acrevaloper19jkd68j79mulnx6pgyqgjwatrvhgdl0cx7ey8w",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "C7ixClM/Go9mQRS3zHHiaQ51q4uaRpjiGIeubGd4xiA="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "200770f203083f60ace92728d387544a443ed1bd@173.249.49.134:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "ApKWKGW91RI8o67wsFZSJMXB29RRheSJF+cCQgdCHKS4"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "A/MxlgZ1l6u13J2xXKhmjnBdQjBMuvbjE1Tu0cZ1En5lB+Io2rKvrjxKjn12yNczvXWSzQRQ8qY1hRut0dwBKAE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Stake-Take",
+                  "identity": "4A1DED53D477793B",
+                  "website": "https://stake-take.com",
+                  "security_contact": "team@stake-take.com",
+                  "details": "Trustworthy and high performance validators. Stake with us and Take profit 🚀"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.050000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre17gc07hawajnfg7e4539pmps0zfkwrdf4tg8t9m",
+                "validator_address": "acrevaloper17gc07hawajnfg7e4539pmps0zfkwrdf4jskm8x",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "ub30mcDbQp0pr2DpAt4K0VyS19uzFjuwN6++tZZUzZo="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "6b9d2a621be404e3beffecc0f434898d158ff4bc@138.201.198.240:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "ArvY1PD5vmLw+Z4AuA59PHeYm1xqvts9HBhxjcsl9qom"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "x/Wcyd/z3SjHprkWVVQumjLYtPZ6FcQcLgCceUezVn4AWVZIhV8HhiFodyq6j1UAhHvm12cy4Yfd2+Vb38aZxQE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Stake or Die!",
+                  "identity": "",
+                  "website": "https://stakeordie.com/",
+                  "security_contact": "help@stakeordie.com",
+                  "details": "Validator on multiple cosmos ecosystem blockchains."
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1kskw99wharjx3gdgz8afw30rs7h4fgm7ath2re",
+                "validator_address": "acrevaloper1kskw99wharjx3gdgz8afw30rs7h4fgm7ynx6py",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "MDR0fMCG3ua1/g75AR5by/D5F+/vUkSSVB5JltuUQXY="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "82213e25b30c01602df1fd21895b5a2dcec53553@23.105.160.201:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "ArqdUJruCMrxdYKQR5HC5Ggksq+vSiE0k1Z8bA7LHcCv"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "wZMAhsCgg7DOHhsreUkWF2ZWnf1Qi+JW8x0StpTOqO4hkEzetmhcQFbiYm3Th/9fqeZXEx/Avn2YhDihrv1S9wE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Stake.Works | Arable",
+                  "identity": "9B8383B888D54D47",
+                  "website": "https://stake.works",
+                  "security_contact": "info@stake.works",
+                  "details": "Node Operators since 2018"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1hwy0kh4g4at7degm9yfrusukv97ua8lhqv6jga",
+                "validator_address": "acrevaloper1hwy0kh4g4at7degm9yfrusukv97ua8lhe5tz2q",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "2eKtSMrj2hkSEmA6Q49H4+geXYZwKhDuUssuGuTj8yk="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "06ab07aaa0d90c784f043c8e2b78c6a92182afea@109.123.246.47:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "Aj0Wh7X9XhiAZrRRk8ynwQZqC6olAj9wwlwZ1I11vbRe"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "2DftVaibQzaUJYEXo6DZjRRpN1JFxxcaBmNuDJiguUwS9OQ+KpWFYV/On6oczmpGCJ+uxoxxSP+c7KWCtulMXQE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Staketab",
+                  "identity": "D55266E648F3F70B",
+                  "website": "https://staketab.com/",
+                  "security_contact": "support@staketab.com",
+                  "details": "Staketab team is engaged in professional validation in various blockchain networks. Our team have experience in staking, nodes configuring, managing snapshots, managing relaying, ICO analysis, block explorers and crypto analytics tools development and many other fields in crypto."
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre146q22dq5c39nwfrn5dgd8uxjjrmptpvc5agkam",
+                "validator_address": "acrevaloper146q22dq5c39nwfrn5dgd8uxjjrmptpvcd9exlx",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "9NGawc0Y1DrrMFW9j4T8UMUIvAy1K5/SZev7MhU9Oao="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "d86d7a9d8059ae726f3322ff1eb9e2797fe62a72@65.108.233.44:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "Aoy6/CCvR2Uljif8ToiDvXWkZHxOmAdWybCRJSDNv72P"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "7KrjaAGtErF4m6A2x7wY5W4Ssz5wJXydO0pH9QwnzP9fE1odZKYN4mXAcOoO3Qbm8aTSJCcZ+aQIxjAzZZfxUQA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Synergy Nodes",
+                  "identity": "AF9D7EF7CC70CE24",
+                  "website": "https://www.synergynodes.com",
+                  "security_contact": "contact@synergynodes.com",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.100000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1y4pfpkwpy6myskp7pne256k6smh2rjtaaf0xv9",
+                "validator_address": "acrevaloper1y4pfpkwpy6myskp7pne256k6smh2rjtay37kwc",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "MAlzKmZR4hdPfyhXPs0yNI+g/qWO1Vnb6kMCYTNFhOw="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "bac90a590452337700e0033315e96430d19a3ffa@10.0.1.36:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A9tJYTfS8l5tw8e4Bor+AWPZXCd//akSacu5UcW6Fy5G"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "MTtcLOL6+yLhiBrTu+jQIhzrydnLAih+oWvBFCh1Fw9BPwzLWunLjMJCj87xf1NaP9YtQJuwmzGQ8zt7Fy4IhAA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "TheNOP.io",
+                  "identity": "B33D9BD4D9EE00AE",
+                  "website": "https://www.thenop.io",
+                  "security_contact": "",
+                  "details": "TheNop.io is managing nodes with long-term Enterprise level cyber security and Infrastructure experiences. Just investing high potential projects. Check out my website to know more about my chains and architecture"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1tc94c0ljexukfjrf35ukdjr0puutvxmy9v6yjz",
+                "validator_address": "acrevaloper1tc94c0ljexukfjrf35ukdjr0puutvxmyu5t5sl",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "BX9FlwOwbymNGQg6/p3/DSRy34NzyL4FZiBGGt1YYKc="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "a7a204511d2a19aadaf4d964ae2db6c6c29408be@172.17.0.11:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "Araz2CwkY5phHb4woF3yhf3wwG4MhHhoobVe5z7jDVrF"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "/T/aaeeI1ogP4Ala2p3zIaoZGN2nPcUOIo61tw/lDMJ/PplWBhtfOxMLbshTGTMF3h/xUTZ2W3Q5oeWQeKK9pwA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Validator.run",
+                  "identity": "2CC4D67B2136C051",
+                  "website": "https://www.validator.run",
+                  "security_contact": "contact@validator.run",
+                  "details": "Validator.run provides trusted stake service with 100% refund on downtime slashing. Enterprise grade infrastructure. High end security and 24/7 monitoring."
+                },
+                "commission": {
+                  "rate": "1.000000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "1.000000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1x0m2j2xxgmsj2dmyajcx0jmyjzkd0t9n2xr8ca",
+                "validator_address": "acrevaloper1x0m2j2xxgmsj2dmyajcx0jmyjzkd0t9nn7jh6q",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "ncvDTXNjPs31Qqq7clT7SiFDPKgJIi3rzLN+aeEVyN0="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "f999b56921689b773a3d0e29098daa52d4ec0800@91.205.173.151:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AoyzbzSRlZICq1Df3lgL7m9JbUrCTMOOAjxdrTwGg0EU"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "izJDqeNmiXdpmzEPAFHF/sdytoCDFtAguYdp25X7zJAa+ctR/WmpdDmQ6Q7JPghXIrWhqJLzCruiJ/c+3bbOPwA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Vault Staking",
+                  "identity": "1F3068FC9F81343C",
+                  "website": "https://www.vaultstaking.com",
+                  "security_contact": "hello@vaultstaking.com",
+                  "details": "Vault Staking is a trusted validator serving the Cosmos community. Our team members are located around the world, always available to answer questions and keep the highest uptime."
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.500000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre16v8tgcl2a72zpg74us65wv7626mcnu22xjslmq",
+                "validator_address": "acrevaloper16v8tgcl2a72zpg74us65wv7626mcnu22l2p0ea",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "D7Xo+cIuYseFxZrUXxIUaYFf8uLBB4S5wvGbSWDkoJ0="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "928fece2b703f5d87caacbe71c0e8f6bc52ef7cf@172.31.11.3:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AgCL6zIwlavTkNA4068dSQRhXcIRhkKHWNlmK4lUjtsP"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "g6WdUzlVSfMWGCo5lSQ/1uz9O2yYhNAUplSGkpgFha5pXVuzNEkEKtAOGXHLJrfmRdeZUt+7MVKhei0S4Qt9GgE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Web3ident",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1rl5h39q804mxypn5gyy0a2uzyrqeydg2eqhteh",
+                "validator_address": "acrevaloper1rl5h39q804mxypn5gyy0a2uzyrqeydg2qcxmm2",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "lu3UWSNAypGQ3Is0zYkpmAG3waeXMzIBSK12O7GL/xI="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "379e05155c15ec10cda93589f0191c830d2c2fab@164.92.234.115:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A7G3h3PxoXqv38WCoQpUfGmDC5MC1cIHOo7LTnQMyR/d"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "yI7/5b5Df88/+Eo9rO+iEfD8aUDIPRSFoqQ18txrxjVfx8G3+Ghqt8i5FgZzeko7ahy3kVMS6SS3HywKutbM3AA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Yurbason",
+                  "identity": "4FE263D11B21735F",
+                  "website": "https://github.com/Yurbason",
+                  "security_contact": "Yurbason#0834",
+                  "details": "In PoS We Trust!"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "acre1sn80um2chzav6mytlfjthlvaf97ta77hfec6ng",
+                "validator_address": "acrevaloper1sn80um2chzav6mytlfjthlvaf97ta77hspf234",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "3xca0nVkpDSzO5EUn12wLc4pOJam3vJiBx5uj5EH7RQ="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "dbe9c383a709881f6431242de2d805d6f0f60c9e@65.109.52.156:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "Aki3J4vICPphwvbaNcKiMuRqWhZWYxliFZQVbnDClT2W"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "R+xmTxbU0Je09PvuEnICaWeIzSNY3m/PUcYG9/4/Y/0/0jlzo3snOT2YaiDNkeZOus+a/d5PvqFQixFZ94YtrQA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Anonstake",
+                  "identity": "FCAD12142E878B17",
+                  "website": "https://anonstake.com",
+                  "security_contact": "",
+                  "details": "Our robust infrastructure helps to secure the networks we support!"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.500000000000000000",
+                  "max_change_rate": "0.030000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre12g66na08jrr8957uv7ftlmt0xw56j8qf0vgknz",
+                "validator_address": "acrevaloper12g66na08jrr8957uv7ftlmt0xw56j8qfk5ex3l",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "VBBvlU1awCZ1HeqGTLxYW/4E2CqlsbKNxyVzOm6+y54="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "d01fb8d008cb5f194bc27c054e0246c4357256b3@31.7.196.72:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AwriYa2IVtKky1DwuiMVfcxvYXjp2YO9nmkIBR8zNUdw"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "d9V6beMucRA4sbA687QQAQNU6RCnVnXrHB9ED6Q7MSc7WA+4m7B5Ms35qm9m0WIt32WrKOk6VLb/Te3o40ElswA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "azstake",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1kqlnqxf8clakdm8dqlxyjc7qcvvd88m080ftau",
+                "validator_address": "acrevaloper1kqlnqxf8clakdm8dqlxyjc7qcvvd88m07hcmlp",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "oYphNN2aKvTsz7G+L/HdqPpQ+ozSB95IFUCeVKyOCrU="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "69baecad2ec55a69baa1082aa38b6abfa1b81142@168.119.89.31:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AmEEwlulXSDmW02D/bJNzUdi/NFJ7Cvq26Xvi1wnAmfH"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "3lDFwfByTqV0y/xiCe5UHdpGdK5ammBgCFkL/ph0BrMcBA7GvUhPj5noVnbFWXElD7pZlupIfmDVFmzvMVI3PAA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "blockscape",
+                  "identity": "C46C8329BB5F48D8",
+                  "website": "https://blockscape.network",
+                  "security_contact": "dev@blockscape.network",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.400000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1dgeda9nt3fqsfwgmf7hm5xpffsefh4x7pptarn",
+                "validator_address": "acrevaloper1dgeda9nt3fqsfwgmf7hm5xpffsefh4x7ce6dpw",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "iyt2GDjd0TVtCtzPWqPVGmq9J3Im4ryOsPjk+WOp0Zs="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "71c32453a233d9f98d43ac2315f9052791a377c9@192.168.178.23:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A8iW/ZVMDLHZBVsDyLw3JTm9gSFnrg1pUARcfirasP+Y"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "udaB5iz2p1MGGE4FhOpV7rW3y6bKy3tf8aXUgAWg/NE1js2ht6HLa0mWVXnECKdYiWgIoQP/xleXlkwQv1icGgE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "BlocksWell",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1nq9utvcs99tqj680670vf60vmpypl0njuvstea",
+                "validator_address": "acrevaloper1nq9utvcs99tqj680670vf60vmpypl0nj95pmmq",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "MmBkFi5guUYoR0maErpfipHb7G+4pCR0Rlc4pw0cIgI="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "0712fe6b3b204badcff43864211eff43357f163b@154.53.42.192:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A8HjfkC97xyDT092Qz3MrT58rraTuf+Wvb3Bke9RAXab"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "rX1hJ5nJdNIclLJ/tObspdBhmJUinIx3wvlte4e450Rrb+EYt1kdH6JcKvqpdJGRV2y8XdiSNYL/4ajwJh3aHwA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ericet",
+                  "identity": "306E7D575FA20264",
+                  "website": "https://ericet.xyz",
+                  "security_contact": "ericetchen@gmail.com",
+                  "details": "A developer, validator and crypto enthusiast"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1ddceyf8tcd7jxwrzaryuckwuzjhge93spcglca",
+                "validator_address": "acrevaloper1ddceyf8tcd7jxwrzaryuckwuzjhge93scqe06q",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "SKNj6KP4GBNFxlUMYXYLQ6/jDxN2+0EGNHQnyFCmdgM="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "42821d77a14cdedd7ee67167cfb321d3185f9fd1@65.108.104.96:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A/9/P88yS465Vj5g8brt+mkY5bIKRmEja4L5+8AsWmAw"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "5pWBNP0u9ugnXC8+6cF3ZwHztozx0fTgQQUQ4WW0LcguxaPcoBvIz+HFEip2QV87NV+Rrg3ngP9XMC8FyGAeGAA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "frenchchocolatine",
+                  "identity": "338FA706162AD3A0",
+                  "website": "https://frenchchocolatine.com",
+                  "security_contact": "contact@frenchchocolatine.com",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1e76jsstf39zanx846vptzwdegcced09as0qjqp",
+                "validator_address": "acrevaloper1e76jsstf39zanx846vptzwdegcced09afh3zzu",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "eUW1gyoX7VE0dkZYSfYULsksNDUdJDqde9W333uOnGU="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "1853c00fb7fb48f86490de392dcd6a7bb406b336@109.205.182.9:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "Ag0n8SG4dbGqEub1R3+se5++Bcgg3bkR2SZQZUFs5/A2"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "n/YZLYln2umWdF5sv18lgWruCsx5re5/+tj+SC3YR2YYOE4P//bzKp1PNzsNZRDqk5LZFqwI+ctKSORB2Y0HUAE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "AutoStake",
+                  "identity": "4D3303E20A4D2C32",
+                  "website": "https://autostake.net",
+                  "security_contact": "support@autostake.net",
+                  "details": "100% Refund on ALL forms of slashing backed by a SAFU fund. Auto-Compound with wallet.autostake.net  IBC Relayer: ibc.autostake.net  twitter.com/AutoStake_  telegram.me/AutoStake_net"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.100000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "acre1ws43egqv720nglj53ks2qqv3z6lzrz3a4g9z2n",
+                "validator_address": "acrevaloper1ws43egqv720nglj53ks2qqv3z6lzrz3avs5jgw",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "LUSv3XT0C5eqIfLnDgCQxSTQ0XJ0TzUsvd8p52Gdcfc="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "df25635b5d2c272a16643914bb89b88413819e1b@192.168.1.113:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A5t69fG2YQxYdMCHa/eA9SntVctn7u0PJslRhre0Gldw"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "CYEQiL0XyAc75o5S0wiB+wunwDrFVX55gjmoYcv+TTdkAwNn1pHfxir8ERJ2SWZh0x7WQK9pbIppTSorvPXgOgE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "NodeStake",
+                  "identity": "94EFE192B2C52424",
+                  "website": "https://nodestake.top",
+                  "security_contact": "info@nodestake.top",
+                  "details": "NodeStake is the professional Validator and IBC Relayer.⚛️7*24h | https://twitter.com/Nodestake_top"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.200000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1qt6yf3fvz250uddj04rxglfd40v8nruq0rh6py",
+                "validator_address": "acrevaloper1qt6yf3fvz250uddj04rxglfd40v8nruqkmx2re",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "RvXRnPIksJ/5BFwu868bxblxD/OY4ck/u/EneyBiEkA="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "54fa1676a4d722973cfdf0b516f87963051f199f@198.244.156.83:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A7vaiRDl+VJyll3VpW2ZAWkkYocVgbKXq+kl2z9aKYph"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "w9BRIUIZ1Ufoa0/aZtLGV++qgtva1bYojZgPByChUPwObQELq77Q20+lmecbo9B7xbwHIR4nT1byilfbVPv/JAA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "PFC",
+                  "identity": "86AC709C230079D0",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre12mq0cjukdx3v2texmg07pr9c4v0ca67cqgyfkf",
+                "validator_address": "acrevaloper12mq0cjukdx3v2texmg07pr9c4v0ca67ces4e55",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "mcEgke/MT4/8buZK3NJOmWN6tJSH4H4K7+QsBwkrjBg="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "8ea056da6ca28094888aa6577c99b07b40363e24@172.20.75.247:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AkyDO2C0yf3wiQTl+ndrgJHK8zAOEJbiGx3SPAxRjV7V"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "b2jFJa+KtECpzQxD9GcJnkVsj0CZ2ClWdC58TSWpbDlC+QBd5sXXVcUQd94txfI3D8HWlaCAT83/e5+T8duOuAA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "danku_zone w/ DAIC",
+                  "identity": "C92C6965D89F07A3",
+                  "website": "https://daic.capital/danku_zone/",
+                  "security_contact": "office@daic.capital",
+                  "details": "The official validator node from danku_r (YouTube, Twitter, Medium) run by DAIC (https://t.me/validator_danku_DAIC)"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.100000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1ygll7dmlsufgs6yarrnm8ljsed4tpafeg2cxu8",
+                "validator_address": "acrevaloper1ygll7dmlsufgs6yarrnm8ljsed4tpafe3jfk76",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "PiwzYuhf8lfx7os2DdZo6vneUSTDaaSp6WuPzth6Rro="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "c31903731b9c55727669d37f9508570d7785c26a@93.189.30.123:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "Akmxa/1ER154+MWe8UzIfb1bzGmVWfJ/eEJ1nvL+I4Ee"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "MI6JR1wt6ShCJf2q8S4UEWgeK+KFhigHKWgxo8gn+9lwqHCnJ0Gkpa2mMoZbEd3p+3Yie5f+f4qV/rwpA6LxbQA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Frens (🤝,🤝)",
+                  "identity": "",
+                  "website": "https://frens.army",
+                  "security_contact": "",
+                  "details": "Your friendly validator for cosmos chains"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1tf33ygp6v4pp7ak3jqzx2kg559xk9ln27h0x7t",
+                "validator_address": "acrevaloper1tf33ygp6v4pp7ak3jqzx2kg559xk9ln2807kuk",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "j42D120H+DgJdB24Y3wKb7zlUvr3Iw/VWMCyENJOtEk="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "81f93a0d550d70f1480a743c94935ca60770a1b8@172.29.0.2:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "ArD3pPp23RnQXEnMQdJmva6FQ/hkchOdqPOt8HaYg16P"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "XE6cDyHhD1uYDyZO5Jzr30L7RcxNhgSCUWyFHbgEBRtI1YXG2UX+wawSEvevNs67aGZWyEQYIhFFwgL/aBhTcwA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Mandragora",
+                  "identity": "DFEAAB98E8D0975B",
+                  "website": "https://mandragora.io",
+                  "security_contact": "https://t.me/dann96",
+                  "details": "Stake 'n Chill Out!"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1wdn6p3ngzmqjmk2mzvmagfu7lhmetamcevhkjm",
+                "validator_address": "acrevaloper1wdn6p3ngzmqjmk2mzvmagfu7lhmetamcq5xxsx",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "nZJ4uliLdi45Gh+4klWHVU9kfZv1GaXdo+zXf9geUJ4="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "68df2b06ffcbb58b0b446fffbb79040a96ef9122@194.163.172.168:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AzHUx8PwcI2ZpKI2SVy76bAwnjl0ajAl9P6mHBxhJrB5"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "wY3EIXbNCrt74HzJ2DI9gNoQLIiHHxUwS33RkqshlUJGK739VtuzA+SernWGxEDua41M6UPh8nWWjpKorJcKZAE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Zenscape",
+                  "identity": "F10E3CDCBC4EA7AA",
+                  "website": "https://zenscape.one",
+                  "security_contact": "info@zenscape.one",
+                  "details": "Enterprise-grade level infrastructure for DeFi degens to stake their crypto assets and earn yields on it. Eat, Sleep, Stake, Repeat! "
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre157dds6jpnvzfnnez599d0ukjvgu2r944cnm7hg",
+                "validator_address": "acrevaloper157dds6jpnvzfnnez599d0ukjvgu2r944pt2w44",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "JDwof0sZ9EUseI/dBLcnzQCVJABsU3Zk9odfFkTQtok="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "509db945f9c0c7b1a61abc408456366395e11d21@149.56.36.204:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A/2DXPE4WKmPq8jSfMQVxk+9Eq1i6r7tClcwyDeriHPp"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "hRri25yPRH7yLE/KDTg9nm64BIQi/pYrxoIZUu2s65BmcjuXpxvk21svhl8R6WS6ep/rLxXgLg9Z/e1T0ndfhQA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "High Staks  🇨🇭",
+                  "identity": "2CB281A714F6133B",
+                  "website": "https://highstakes.ch",
+                  "security_contact": "contact@highstakes.ch",
+                  "details": "Swiss corporation experin PoS validatio🚀 Join our Community: Twitter @HighStakes_CH | Discord https://discord.gg/MtAc6peX"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "acre1fgs9uuxjwrclak88e633nw75j6ckxmdx09v0pw",
+                "validator_address": "acrevaloper1fgs9uuxjwrclak88e633nw75j6ckxmdxkaalrn",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "hcHNo2YcVDs6XoXtdmkQAUTAXYU5XdmgTZZreSmh/+M="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "276be584b4a8a3fd9c3ee1e09b7a447a60b201a4@116.203.29.162:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AorRCfW6s68DmNkevhqkeQKltXTyC5OThsCT30dPoMqM"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "JDH5jwBjvpMn2wXEKPtJOo1K4FbCpbaJNQLbHcclPExZPbOOt9aapVvc9409q+Nr4u5CvzlR6aJHa9E5a5gDzAA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "itgoldio",
+                  "identity": "ITGold",
+                  "website": "https://itgold.io",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre14ye7l35ary0musqs4dn6aj79u3lg5gpfxthwaj",
+                "validator_address": "acrevaloper14ye7l35ary0musqs4dn6aj79u3lg5gpflnx7l0",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "KPxjMS3S8bsQXlzGrAFrq6pofJjTf3m0YzHU/feNIDo="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "6e2d6d2c2daf1820364c7777c97e94074f155664@188.227.86.103:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A6T6f6B1SNkfFwd/p3cl/DcbMOlX1vWQaxXYD2vvidQU"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "CpOPtyNFtpWhQJSh4mkxUO1aQ/nZyiX0IBE0+TY3ox9Nj3I1V/vFnXP5hU9kBY3F4Tl6uWLKBRP0axVjm9dGPgA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "jet-node",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre16ta5jvmvj90l3zgry98p3gafqnn8e3aq00987r",
+                "validator_address": "acrevaloper16ta5jvmvj90l3zgry98p3gafqnn8e3aqkh5hu7",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "o4kedcrkN1KoHWUF+zjZzFKbFXDE99AYEJZ7uKHYB8s="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "3de85bbe5cd59f9e2615c0d71c649f8785f6cadc@123.193.196.217:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AlBHLodtpBb6vx6W40h4pOlvf4KSgZQj5vXVAo4Xj7aj"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "xWojR+ib7Bt+tElnNrZRCXts1KPf+qt87h1/h329NjlmOYx3K4xVHJb7d+elwhVG8MCb3rmP3awTgDbSvLP7hwA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "✨ lux8.net ✨",
+                  "identity": "EBBAB54C972A579A",
+                  "website": "https://lux8.net",
+                  "security_contact": "",
+                  "details": "Fiat Lux. Infinite Lux."
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1zgpquw7zaphz8n4qn6lgstfaac9zxwk8jl8eey",
+                "validator_address": "acrevaloper1zgpquw7zaphz8n4qn6lgstfaac9zxwk8t8kfme",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "RgkKkVax4o7KK0u2tz6DptgK/1n7mDl7f10UkSEMk3A="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "ac050f22f8b33ba5e275e39ae7df115cce43991d@89.58.40.88:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "Ay6MEk1AQM8vD/q1sMHPlvYyaSZ9p5ukfEzO8kwyVgwj"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "kW5lNk4LusmR2k9+qRel20XOlIYNiUtPV/rGUeLWlRpX+V/AlY43f7sI+Dgyloz3bRcCmsmimBrFUdH6fv6e/AA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Mario",
+                  "identity": "B1AF882678CF69F9",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre106ukr5w6a95kmtgh4xc9a3n5xcw2rpzqwlszv8",
+                "validator_address": "acrevaloper106ukr5w6a95kmtgh4xc9a3n5xcw2rpzqh8pjw6",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "rKqLIuiRTBTs+NBVRuFTaiGJWRgU1Oh07+9/tkMkxGo="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "d17299ebe9dc2f877007516305e46a651d9f9a64@172.241.26.28:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AkSwel/Wi0lfstJcdNnOb5s5RCeU92VC8Ro7ovL/dmJM"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "oB8QTfcNblOZoExcn+mHuC14NkxUSxslonBAxePUzv5CgkWSRgRSRJhBWiIxoA0q4xZNfvPWkFhp12x7DUo9ZgA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Namdokmai",
+                  "identity": "40CA0DA1BA145FDE",
+                  "website": "https://namdokami.net",
+                  "security_contact": "",
+                  "details": "The sweetest staking service 😋"
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1guxlxgr5flga44vvg7skqp0r5y67a5xnree00c",
+                "validator_address": "acrevaloper1guxlxgr5flga44vvg7skqp0r5y67a5xn6pgld9",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "GP0/hP5R6h9NWlBPvK5nWwOdywrSo7zvSU6AVT8e6ZY="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "1f517dc06794d065ce5f949e3875ecef685ce110@202.61.240.155:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "Ap8n2/1/HDxRWvMVhgvthNsMkl+rrd9anwV99TQCrf4o"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "/VTRZmxSe64GitM/r2B52CdW11h701f5ZR8QfqJBrzAG1Wrp3y5eqYJO8LMUlI+/wb5WE5CxqWSbJrFGtL/2IQE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ramuchi.tech",
+                  "identity": "4D0D40021BDCECB7",
+                  "website": "https://ramuchi.tech/",
+                  "security_contact": "validator@ramuchi.tech",
+                  "details": "Always in search of the great user experience. Focused on great performance and deliver the best results as daily basis"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1yppufjenpmk2xueazr9zysgh52f7h3rsv206vn",
+                "validator_address": "acrevaloper1yppufjenpmk2xueazr9zysgh52f7h3rs4j72ww",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "2zdCPlmpPky7XXlFvOqF1HCC1yTSFu4FY0Rs+ToL2TQ="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "937fd6ec0191e032937bbe83f1c5a8e535c16e0d@65.21.92.161:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AieVEuwQryIFGsB6zEO8dheUZOp8FBiFFX5TcyH25beM"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "g2ii5fmAhwO7+vnAL7hHg+U78ny8yqC6cSFw5GmOtcJ0HcPLnIeK/lgscAHiakHQ4rILlYgl1ZFlea8OScUwTwE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "silent",
+                  "identity": "A47522A5527DB39F",
+                  "website": "https://silentvalidator.com",
+                  "security_contact": "",
+                  "details": "Silent is a professional validator who wanna bring value to cosmos community, we will have airdrop activities to our delegators"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "acre1lj9tn3huf8zm3ncegmefv0rzwmhj3gz7tmdkn2",
+                "validator_address": "acrevaloper1lj9tn3huf8zm3ncegmefv0rzwmhj3gz7jrux3h",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "1kMoejecvY582MkGZ2kCUOvi5HNa1AcGQEfHF9Mlv2A="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "ee08bb32e9d940585639a5f00761d5e42f2ccc2a@65.108.69.178:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A4XpInwrDa9QXTmQUJL0VnmJE/YegfXCLnHYUkLEd6fL"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "feMdU9AsnJ3OW1yessz7i1TBUBQIBwnCYc0+fKqsw995ry9O9DAJqR1K7lpFaKQNFwFm+uF/z5of7HZe/s8DogE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "SkyNet | Validators",
+                  "identity": "1510797E867F484E",
+                  "website": "www.skynetvalidators.com",
+                  "security_contact": "skynet@skynetvalidators.com",
+                  "details": "We are a multi-blockchain validator supporting the Cosmos HUB as an enterprise class validator, Gravity \u0026 IBC relayer and block explorer  (www.skynetexplorers.com) provider."
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre1fac8t87smt4e2j355glhr3qungqk578mkj4agp",
+                "validator_address": "acrevaloper1fac8t87smt4e2j355glhr3qungqk578m02yd2u",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "gvts2XkBfR/pjGLN9z+NBUTDdslpMSSqSTqLr1JtBQk="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "c79a1375b39a6e4c5f52c5976bca01089336db48@65.21.230.104:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A1uBC/tqZgMNnLHZy9HuNP7nnAs7iOc1l68OXrAAvz30"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "//z6QKw4QcXy3BAIVGMu721wb4XcXitOG/u3QEgMhMA7ChVXhU2Zn+n28Dzs9rx8ZZqCcC0ekSM2L79BBc7eTgA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "web34ever",
+                  "identity": "52D7E9C59B92F133",
+                  "website": "https://web3validator.info",
+                  "security_contact": "web34ever@gmail.com",
+                  "details": "Infrastructure Validator \u0026 Dedicated Contributor ₿ 🇺🇦⚔️"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000000000000000",
+                "delegator_address": "acre12242xw27r9v2dplr9hhy3ftpgn55tehg73ajk8",
+                "validator_address": "acrevaloper12242xw27r9v2dplr9hhy3ftpgn55tehg8fvz56",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "oBtNdzguR9rCYH5ogq8TI1/g34JxZ7Dmugj52X8MO0Y="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "8625aba24ee40f274ce7f9c9fd2697c5dd09e500@95.217.207.236:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A6jt41fATxCBOKV3PTqv2G4Y0mzDb5Wr5iaWSaQ1Mh5A"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "HBKzIiOwpy8zogA4zlyZb5bzhvEqMRXXeNmrXhShDJspKjGxbopjpUE8zWZuhdYaKIYBRiQqD914wdezYKFPCwE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "windpowerstake",
+                  "identity": "6B633475425442FA",
+                  "website": "http://windpowerstake.com",
+                  "security_contact": "windpowerstake@protonmail.com",
+                  "details": "windpowerstake is a validator that owns their own equipment and operates in three locations using renewable energy and measuring their own power consumption"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "acre1hvn8advpjvhkdldjqfayqz54p6sgm5djf380xy",
+                "validator_address": "acrevaloper1hvn8advpjvhkdldjqfayqz54p6sgm5djsfklye",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "rmC7ccL66CduZL2s4oFUsXPxK7VRjDG8B7C9kJ4NBXk="
+                },
+                "value": {
+                  "denom": "aacre",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "e52531bbc6522fdb7723dd82c7592458064cf255@192.168.178.23:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AnYTLn68xxvQSr/pn/QL9mOWh6/A5RFByU91YXGqdUme"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "gemZUrliNrsMH103ZPACtX2doJa0XB5Q3NmpWtjBgDoVlVcvRdnuRedJfE38V+4H4ZbBGGx9OyLkKLzuC/ZB5QE="
+          ]
+        }
+      ]
     },
     "gov": {
       "starting_proposal_id": "1",
@@ -180,7 +4758,10 @@
         "clients_consensus": [],
         "clients_metadata": [],
         "params": {
-          "allowed_clients": ["06-solomachine", "07-tendermint"]
+          "allowed_clients": [
+            "06-solomachine",
+            "07-tendermint"
+          ]
         },
         "create_localhost": false,
         "next_client_sequence": "0"
@@ -245,14 +4826,14 @@
     "mint": {
       "params": {
         "mint_denom": "aacre",
-        "genesis_daily_provisions": "821917808219.000000000000000000",
+        "genesis_daily_provisions": "821917000000000000000000.000000000000000000",
         "reduction_period_in_seconds": "31536000",
         "reduction_factor": "0.666600000000000000",
         "distribution_proportions": {
           "staking": "0.250000000000000000"
         },
-        "next_rewards_reduction_time": "0",
-        "minting_rewards_distribution_start_time": "1697826179"
+        "next_rewards_reduction_time": "1676390400",
+        "minting_rewards_distribution_start_time": "1671033600"
       }
     },
     "params": null,
