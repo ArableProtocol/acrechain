@@ -12,9 +12,15 @@ func (k Keeper) InitGenesis(ctx sdk.Context, data *types.GenesisState) {
 		panic("empty mint genesis state")
 	}
 
+	// last mint time to 0 when its before rewards distribution start time
+	lastMintTime := int64(0)
+	if ctx.BlockTime().Unix() > data.Params.MintingRewardsDistributionStartTime {
+		// last mint time reset in case of hard fork
+		lastMintTime = ctx.BlockTime().Unix()
+	}
 	minter := types.Minter{
 		DailyProvisions: data.Params.GenesisDailyProvisions,
-		LastMintTime:    0,
+		LastMintTime:    lastMintTime,
 	}
 	k.SetMinter(ctx, minter)
 	k.SetParams(ctx, data.Params)
