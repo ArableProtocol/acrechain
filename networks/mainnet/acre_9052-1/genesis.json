@@ -1085,7 +1085,7 @@
     "evm": {
       "accounts": [],
       "params": {
-        "evm_denom": "aphoton",
+        "evm_denom": "aacre",
         "enable_create": true,
         "enable_call": true,
         "extra_eips": [],
