@@ -2415,7 +2415,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "",
+                  "moniker": "Mind Heart Soul",
                   "identity": "B19CCB674F20BC43",
                   "website": "",
                   "security_contact": "",
@@ -2467,7 +2467,7 @@
             }
           },
           "signatures": [
-            "IxZlD69u5a0l+E9AwJk/NY+9tgrGerkXHc3bjr4SjhE2m14YaaZCxOEPeqAvu6KNRi40HlAqtZKR9mXETeWzKwE="
+            "+z6AE0jutCJNu57q2liq51u8m1w+JUac+JHJUiAVj89ay0CNOpp7OtFVIT6R+cDAlULk8EZuONtm1YK1bX4+ggE="
           ]
         },
         {
