@@ -14,15 +14,13 @@ import (
 
 // Parameter store keys.
 var (
-	KeyMintDenom                            = []byte("MintDenom")
-	KeyGenesisDailyProvisions               = []byte("GenesisDailyProvisions")
-	KeyReductionPeriodInSeconds             = []byte("ReductionPeriodInSeconds")
-	KeyReductionFactor                      = []byte("ReductionFactor")
-	KeyPoolAllocationRatio                  = []byte("PoolAllocationRatio")
-	KeyMintingRewardsDistributionStartBlock = []byte("MintingRewardsDistributionStartBlock")
-	KeyUsageIncentiveAddress                = []byte("UsageIncentiveAddress")
-	KeyGrantsProgramAddress                 = []byte("GrantsProgramAddress")
-	KeyTeamReserveAddress                   = []byte("TeamReserveAddress")
+	KeyMintDenom                           = []byte("MintDenom")
+	KeyGenesisDailyProvisions              = []byte("GenesisDailyProvisions")
+	KeyReductionPeriodInSeconds            = []byte("ReductionPeriodInSeconds")
+	KeyReductionFactor                     = []byte("ReductionFactor")
+	KeyDistributionProportions             = []byte("DistributionProportions")
+	KeyMintingRewardsDistributionStartTime = []byte("MintingRewardsDistributionStartTime")
+	KeyNextRewardsReductionTime            = []byte("NextRewardsReductionTime")
 )
 
 // ParamTable for minting module.
@@ -35,14 +33,16 @@ func NewParams(
 	mintDenom string, genesisDailyProvisions sdk.Dec,
 	ReductionFactor sdk.Dec, reductionPeriodInSeconds int64, distrProportions DistributionProportions,
 	nextRewardsReductionTime int64,
+	mintingRewardsDistributionStartTime int64,
 ) Params {
 	return Params{
-		MintDenom:                mintDenom,
-		GenesisDailyProvisions:   genesisDailyProvisions,
-		ReductionPeriodInSeconds: reductionPeriodInSeconds,
-		ReductionFactor:          ReductionFactor,
-		DistributionProportions:  distrProportions,
-		NextRewardsReductionTime: nextRewardsReductionTime,
+		MintDenom:                           mintDenom,
+		GenesisDailyProvisions:              genesisDailyProvisions,
+		ReductionPeriodInSeconds:            reductionPeriodInSeconds,
+		ReductionFactor:                     ReductionFactor,
+		DistributionProportions:             distrProportions,
+		NextRewardsReductionTime:            nextRewardsReductionTime,
+		MintingRewardsDistributionStartTime: mintingRewardsDistributionStartTime,
 	}
 }
 
@@ -57,7 +57,8 @@ func DefaultParams() Params {
 		DistributionProportions: DistributionProportions{
 			Staking: sdk.NewDecWithPrec(25, 2), // 25%
 		},
-		NextRewardsReductionTime: 0,
+		NextRewardsReductionTime:            0,
+		MintingRewardsDistributionStartTime: 0,
 	}
 }
 
@@ -80,7 +81,11 @@ func (p Params) Validate() error {
 		return err
 	}
 
-	if err := validateMintingRewardsDistributionStartBlock(p.NextRewardsReductionTime); err != nil {
+	if err := validateNextRewardsReductionTime(p.NextRewardsReductionTime); err != nil {
+		return err
+	}
+
+	if err := validateMintingRewardsDistributionStartTime(p.MintingRewardsDistributionStartTime); err != nil {
 		return err
 	}
 
@@ -101,8 +106,9 @@ func (p *Params) ParamSetPairs() paramtypes.ParamSetPairs {
 		paramtypes.NewParamSetPair(KeyGenesisDailyProvisions, &p.GenesisDailyProvisions, validateGenesisDailyProvisions),
 		paramtypes.NewParamSetPair(KeyReductionPeriodInSeconds, &p.ReductionPeriodInSeconds, validateReductionPeriodInSeconds),
 		paramtypes.NewParamSetPair(KeyReductionFactor, &p.ReductionFactor, validateReductionFactor),
-		paramtypes.NewParamSetPair(KeyPoolAllocationRatio, &p.DistributionProportions, validateDistributionProportions),
-		paramtypes.NewParamSetPair(KeyMintingRewardsDistributionStartBlock, &p.NextRewardsReductionTime, validateMintingRewardsDistributionStartBlock),
+		paramtypes.NewParamSetPair(KeyDistributionProportions, &p.DistributionProportions, validateDistributionProportions),
+		paramtypes.NewParamSetPair(KeyNextRewardsReductionTime, &p.NextRewardsReductionTime, validateNextRewardsReductionTime),
+		paramtypes.NewParamSetPair(KeyMintingRewardsDistributionStartTime, &p.MintingRewardsDistributionStartTime, validateMintingRewardsDistributionStartTime),
 	}
 }
 
@@ -178,26 +184,28 @@ func validateDistributionProportions(i interface{}) error {
 	return nil
 }
 
-func validateMintingRewardsDistributionStartBlock(i interface{}) error {
+func validateNextRewardsReductionTime(i interface{}) error {
 	v, ok := i.(int64)
 	if !ok {
 		return fmt.Errorf("invalid parameter type: %T", i)
 	}
 
 	if v < 0 {
-		return fmt.Errorf("start block must be non-negative")
+		return fmt.Errorf("next reduction time must be non-negative")
 	}
 
 	return nil
 }
 
-func validateAddress(i interface{}) error {
-	v, ok := i.(string)
+func validateMintingRewardsDistributionStartTime(i interface{}) error {
+	v, ok := i.(int64)
 	if !ok {
 		return fmt.Errorf("invalid parameter type: %T", i)
 	}
 
-	_, err := sdk.AccAddressFromBech32(v)
+	if v < 0 {
+		return fmt.Errorf("start time must be non-negative")
+	}
 
-	return err
+	return nil
 }

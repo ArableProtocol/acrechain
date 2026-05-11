@@ -4,10 +4,6 @@ package types
 // the Minter and its DailyProvisions are stored.
 var MinterKey = []byte{0x00}
 
-// LastReductionTimeKey is the key to use for the keeper store
-// for sacreng the last time at which reduction occurred.
-var LastReductionTimeKey = []byte{0x01}
-
 const (
 	// ModuleName is the module name.
 	ModuleName = "mint"
