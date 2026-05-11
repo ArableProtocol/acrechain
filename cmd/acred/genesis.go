@@ -23,6 +23,7 @@ import (
 	slashingtypes "github.com/cosmos/cosmos-sdk/x/slashing/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	icatypes "github.com/cosmos/ibc-go/v3/modules/apps/27-interchain-accounts/types"
+	evmtypes "github.com/evmos/ethermint/x/evm/types"
 	"github.com/spf13/cobra"
 	tmtypes "github.com/tendermint/tendermint/types"
 )
@@ -108,6 +109,17 @@ func PrepareGenesis(clientCtx client.Context, appState map[string]json.RawMessag
 		return nil, nil, fmt.Errorf("failed to marshal mint genesis state: %w", err)
 	}
 	appState[minttypes.ModuleName] = mintGenStateBz
+
+	// evm module genesis
+	evmGenState := evmtypes.DefaultGenesisState()
+	evmGenState.Params = evmtypes.DefaultParams()
+	evmGenState.Params.EvmDenom = appparams.BaseDenom
+
+	evmGenStateBz, err := cdc.MarshalJSON(evmGenState)
+	if err != nil {
+		return nil, nil, fmt.Errorf("failed to marshal evm genesis state: %w", err)
+	}
+	appState[evmtypes.ModuleName] = evmGenStateBz
 
 	// bank module genesis
 	bankGenState := banktypes.DefaultGenesisState()
@@ -271,7 +283,9 @@ func PrepareGenesis(clientCtx client.Context, appState map[string]json.RawMessag
 	// slashing module genesis
 	slashingGenState := slashingtypes.DefaultGenesisState()
 	slashingGenState.Params = slashingtypes.DefaultParams()
-	slashingGenState.Params.SignedBlocksWindow = 10000
+	slashingGenState.Params.SignedBlocksWindow = 30000
+	slashingGenState.Params.MinSignedPerWindow = sdk.NewDecWithPrec(5, 2)
+	slashingGenState.Params.SlashFractionDowntime = sdk.NewDecWithPrec(1, 3)
 	slashingGenStateBz, err := cdc.MarshalJSON(slashingGenState)
 	if err != nil {
 		return nil, nil, fmt.Errorf("failed to marshal slashing genesis state: %w", err)
