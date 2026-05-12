@@ -2,10 +2,12 @@
 
 ## Hardware Requirements
 
-4+ physical CPU cores
+```
+4+ CPU cores
 500+GB of SSD disk storage
 32+GB of memory (RAM)
-100+mbps network bandwidth
+100+Mbps network bandwidth
+```
 
 Note: As the usage of the blockchain grows, the server requirements would increase.
 
