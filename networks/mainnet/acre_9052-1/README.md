@@ -103,7 +103,7 @@ You should get the following output:
 # This section will be updated later once v1.1.1 is released
 ```
 
-## Initialise your Validator node
+## initialize your Validator node
 ```
 #Choose a name for your validator and use it in place of “<moniker-name>” in the following command:
 acred init <moniker-name> --chain-id acre_9052-1
