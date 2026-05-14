@@ -46,7 +46,9 @@ cat $HOME/.acred/config/genesis.json | jq '.app_state["crisis"]["constant_fee"][
 cat $HOME/.acred/config/genesis.json | jq '.app_state["gov"]["deposit_params"]["min_deposit"][0]["denom"]="aacre"' > $HOME/.acred/config/tmp_genesis.json && mv $HOME/.acred/config/tmp_genesis.json $HOME/.acred/config/genesis.json
 cat $HOME/.acred/config/genesis.json | jq '.app_state["gov"]["voting_params"]["voting_period"]="20s"' > $HOME/.acred/config/tmp_genesis.json && mv $HOME/.acred/config/tmp_genesis.json $HOME/.acred/config/genesis.json
 cat $HOME/.acred/config/genesis.json | jq '.app_state["evm"]["params"]["evm_denom"]="aacre"' > $HOME/.acred/config/tmp_genesis.json && mv $HOME/.acred/config/tmp_genesis.json $HOME/.acred/config/genesis.json
-cat $HOME/.acred/config/genesis.json | jq '.app_state["inflation"]["params"]["mint_denom"]="aacre"' > $HOME/.acred/config/tmp_genesis.json && mv $HOME/.acred/config/tmp_genesis.json $HOME/.acred/config/genesis.json
+cat $HOME/.acred/config/genesis.json | jq '.app_state["mint"]["params"]["mint_denom"]="aacre"' > $HOME/.acred/config/tmp_genesis.json && mv $HOME/.acred/config/tmp_genesis.json $HOME/.acred/config/genesis.json
+cat $HOME/.acred/config/genesis.json | jq '.app_state["mint"]["params"]["next_rewards_reduction_time"]="'$(($(date -u +%s) + 30))'"' > $HOME/.acred/config/tmp_genesis.json && mv $HOME/.acred/config/tmp_genesis.json $HOME/.acred/config/genesis.json
+cat $HOME/.acred/config/genesis.json | jq '.app_state["mint"]["params"]["minting_rewards_distribution_start_time"]="'$(($(date -u +%s) + 90))'"' > $HOME/.acred/config/tmp_genesis.json && mv $HOME/.acred/config/tmp_genesis.json $HOME/.acred/config/genesis.json
 
 # Set gas limit in genesis
 cat $HOME/.acred/config/genesis.json | jq '.consensus_params["block"]["max_gas"]="10000000"' > $HOME/.acred/config/tmp_genesis.json && mv $HOME/.acred/config/tmp_genesis.json $HOME/.acred/config/genesis.json
