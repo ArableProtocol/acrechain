@@ -233,6 +233,8 @@ acred tx staking create-validator -y \
   --commission-max-change-rate=0.01 \
   --min-self-delegation 1
   
+  # In the above example, we are creating a validator and delegating 5 ACRE to the node.
+  
 ```
 
 ## Get Validator Operator Address (Valoper Address)
