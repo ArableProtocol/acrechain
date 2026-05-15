@@ -109,6 +109,7 @@ import (
 	_ "github.com/ArableProtocol/acrechain/client/docs/statik"
 
 	"github.com/ArableProtocol/acrechain/app/ante"
+	v1_2_0 "github.com/ArableProtocol/acrechain/app/upgrades/v1_2_0"
 	"github.com/ArableProtocol/acrechain/x/erc20"
 	erc20client "github.com/ArableProtocol/acrechain/x/erc20/client"
 	erc20keeper "github.com/ArableProtocol/acrechain/x/erc20/keeper"
@@ -898,4 +899,11 @@ func initParamsKeeper(
 }
 
 func (app *AcreApp) setupUpgradeHandlers() {
+	// v1.2.0 upgrade handler
+	app.UpgradeKeeper.SetUpgradeHandler(
+		v1_2_0.UpgradeName,
+		v1_2_0.CreateUpgradeHandler(
+			app.mm, app.configurator,
+		),
+	)
 }
